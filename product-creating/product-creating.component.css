@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: cover;
+  max-width: 1400px;
+  padding: 20px 30px;
+  background-image: url("../../assets/Images/background2.png");
+  padding-left: 60pt;
+  padding-right: 60pt;
+  margin-top: -27pt;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30pt;
+  color: #333;
+  display: inline-block;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  position: relative;
+  font-family: Literata;
+}
+
+h1::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px; /* Tăng khoảng cách dưới phần header */
+}
+
+.button-group button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-family: Literata;
+  font-size: 20px;
+  margin-top: 20pt;
+}
+
+.product-form .form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; 
+  font-family: Literata;
+  font-size: 20px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 10px;
+  margin-top: 25px;
+  font-family: Literata;
+  font-size: 20px;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+  display: block;
+  margin-bottom: 8px; 
+  line-height: 1.2;
+  font-family: Literata;
+  font-size: 20px;
+}
+
+input[type="text"],
+select{
+  width: 100%;
+  padding: 10px; /* Tăng khoảng cách padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+  width: 187px;
+  height: 27px
+}
+
+textarea{
+  width: 1070px;
+  height: 237px;
+  resize: none;
+}
+
+.upload-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #333;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.upload-btn:hover {
+  background-color: #d5d5d5;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-top: 25px; 
+  font-family: Literata;
+  font-size: 20px;
+}
+
+.save-btn,
+.cancel-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: #4caf50;
+  font-family: Literata;
+  font-size: 20px;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  font-family: Literata;
+  font-size: 20px;
+}
+
+.save-btn:hover {
+  background-color: #45a049;
+}
+
+.cancel-btn:hover {
+  background-color: #e53935;
+}
+
+
+.header-top {
+  background-color:#508551; /* Match the green background color from đoạn 1 */
+  display: flex;
+  justify-content: center;
+  padding: 53px 30px 0; /* Match padding from đoạn 1 */
+  position: relative;
+  width: 100%;
+  height: 50pt; /* Remove fixed height to allow flexible spacing */
+}
+
+.navbar {
+  background-image: url('../../assets/Images/header.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1150px;
+  border-radius: 11px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem 1rem;
+  position: relative;
+  gap: 40px 100px;
+  margin-left: 60pt;
+  margin-right: 40pt;
+  margin-top: -33px;
+}
+
+.header-bg {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+main {
+  margin-left: 30pt;
+  margin-right: 30pt;
+  margin-top: 20px; /* Đẩy nội dung chính xuống dưới navbar */
+}
+
+h1{
+  font-family: Literata;
+  font-size: 30px;
+}
+
+h1::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
+.navbar-brand img {
+  margin-left: 20pt;
+  height: 50px; /* Adjust logo size */
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 70px; /* Adjust the gap to match the screenshot */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.5rem;
+  transition: color 0.3s;
+  font-family: Literata;
+  font-size: 24px;
+}
+
+.nav-link:hover {
+  color:aquamarine;
+}
+
+.nav-icon{
+  width: 24px; 
+  height: 24px; 
+  fill: currentColor;
+}

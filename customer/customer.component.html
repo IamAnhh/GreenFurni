@@ -1,0 +1,65 @@
+
+    <header class="header-top">
+    </header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a class="navbar-brand">
+                <img src="../../assets/Images/logo.png">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Tổng quan</a></li>
+                <li class="nav-item"><a class="nav-link" [routerLink]="'/product'">Sản phẩm</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Đơn hàng</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Mã giảm giá</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tài khoản</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Thiết kế</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            </ul>
+            <ul class="navbar-nav icons">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="nav-icon" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="nav-icon" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                      </svg></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="nav-icon" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z"/>
+                        <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+                      </svg></a>
+                </li>
+            </ul>
+        </nav>
+    <main>
+        <h1>Khách hàng</h1>
+        <div class="toolbar">
+            <input type="text" placeholder="Tìm kiếm...">
+            <button>In dữ liệu</button>
+            <button>Xóa tất cả</button>
+            <button>Sao chép</button>
+        </div>
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tên đăng nhập</th>
+                    <th>Giới tính</th>
+                    <th>Số điện thoại</th>
+                    <th>Địa chỉ</th>
+                    <th>Trạng thái tài khoản</th>
+                    <th>Lịch sử giao dịch</th>
+                    <th>Phân loại</th>
+                    <th>Chức năng</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </main>
+
