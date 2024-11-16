@@ -1,0 +1,86 @@
+
+
+<header class="main-header">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+  />
+
+  <div class="header-content">
+    <div class="social-follow">
+      <span class="follow-tex center">Theo dõi qua:</span>
+      <i class="bi bi-facebook social-icon"></i>
+      <i class="bi bi-tiktok social-icon"></i>
+      <i class="bi bi-instagram social-icon"></i>
+      <i class="bi bi-envelope social-icon"></i>
+      <i class="bi bi-telephone social-icon"></i>
+    </div>
+    <nav class="main-nav">
+      <img
+        src="../../assets/Images/logo/logo-black.png"
+        alt="Company logo"
+        class="company-logo"
+      />
+      <!-- Biểu tượng "bi-list" để mở menu -->
+
+      <ul class="nav-links">
+        <li><a href="#" class="nav-link">Trang chủ</a></li>
+        <li><a href="#" class="nav-link">Sản phẩm</a></li>
+        <li><a href="#" class="nav-link">Blog</a></li>
+        <li><a href="#" class="nav-link">FAQ</a></li>
+        <li><a href="#" class="nav-link">Câu chuyện</a></li>
+        <li><a href="#" class="nav-link">Chính sách</a></li>
+      </ul>
+
+      <div class="user-actions">
+        <i class="bi bi-search action-icon"></i>
+        <i class="bi bi-cart action-icon"></i>
+        <i class="bi bi-person-circle action-icon"></i>
+      </div>
+
+    </nav>
+
+    <nav class="navigation-container">
+        <div class="logo-section2">
+          <img loading="lazy" src="../../assets/Images/logo/logomobile.png" alt="Company logo" class="company-logo2" />
+        </div>
+        <!-- <div>
+            <input  loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/9a41a64b9b654c8b8e55e1e605f3b81b/d382cc762d2659383abdec89a8c85e300bbe18a090a4b6ffa432dbd48d3b7fdc?apiKey=9a41a64b9b654c8b8e55e1e605f3b81b&" alt="Company name" class="company-name2 form-control" />
+        </div> -->
+        <div class="search-container">
+          <input type="text" class="form-control search-input" >
+          <img  class="search-icon" src="../../assets/Images/logo/looking.png">
+        </div>
+        <nav class="drop-container">
+          <div class="dropdown-container">
+            <ul class="dropdown-menu" [class.show]="menuOpen">
+              <li><a href="#" class="dropdown-item">Trang chủ</a></li>
+              <li><a href="#" class="dropdown-item">Sản phẩm</a></li>
+              <li><a href="#" class="dropdown-item">Blog</a></li>
+              <li><a href="#" class="dropdown-item">FAQ</a></li>
+              <li><a href="#" class="dropdown-item">Câu chuyện</a></li>
+              <li><a href="#" class="dropdown-item">Chính sách</a></li>
+            </ul>
+          </div>
+        </nav>
+
+
+        <div class=" action-section2 ">
+          <div class="action-button2">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/9a41a64b9b654c8b8e55e1e605f3b81b/1e068cc85b7c7f4eb4658611d1f4492fef87236997b825ae0767860bea5ca760?apiKey=9a41a64b9b654c8b8e55e1e605f3b81b&" alt="Menu icon" class="menu-icon2" />
+          </div>
+          <div class="action-button2">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/9a41a64b9b654c8b8e55e1e605f3b81b/adde03041e671d61aea4f3c5d4841497d62c8716d6febf28542e1ad304a4ec92?apiKey=9a41a64b9b654c8b8e55e1e605f3b81b&" alt="Search" class="action-icon2" />
+          </div>
+          <div class="action-button2 menu-toggle" (click)="toggleMenu($event)">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/9a41a64b9b654c8b8e55e1e605f3b81b/7ebdb6a318ed2e3a96cf5eb1577c28c2f5eb04eb9c143e56eea8113565874498?apiKey=9a41a64b9b654c8b8e55e1e605f3b81b&"
+              alt="User profile"
+              class="action-icon2"
+            />
+          </div>
+        </div>
+    </nav>
+  </div>
+</header>
