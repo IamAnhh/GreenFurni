@@ -1,0 +1,220 @@
+<body>
+    <main class="main-content">
+
+        <!--== Start Shopping Checkout Area Wrapper ==-->
+        <section class="shopping-checkout-wrap section-space">
+            <div class="container">
+
+                <div class="row">
+
+                    <div>
+                        <button label="backtocart" class="backtocart">TRỞ VỀ GIỎ HÀNG</button>
+                        <!-- (click)="backtoCart()" -->
+
+                    </div>
+                    <br>
+                    <!--== Start Billing Accordion ==-->
+                    <div class="checkout-billing-details-wrap">
+                        <h2 class="title">Thông tin giao hàng</h2>
+                        <div class="billing-form-wrap checkout-form">
+                            <form>
+                                <!-- action="#" method="post" [formGroup]="checkoutFormGroup" -->
+                                <div class="row">
+                                    <div class="col-md-12">
+
+
+                                        <div class="form-group">
+                                            <label for="name">Họ và tên <abbr class="required"
+                                                        title="required">*</abbr></label>
+                                            <input id="name" type="text" class="form-control" pInputText />
+                                            <!-- formControlName="name" -->
+                                            <small class="p-error">Bạn chưa điền vào trường này</small>
+                                            <!-- *ngIf="checkoutForm['name'].invalid && isSubmitted" -->
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="name">Email <abbr class="required"
+                                                        title="required">*</abbr></label>
+                                            <input id="email" type="text" class="form-control" pInputText />
+                                            <!-- formControlName="email" -->
+                                            <small class="p-error">Bạn chưa điền vào trường này</small>
+                                            <!-- *ngIf="checkoutForm['email'].invalid && isSubmitted" -->
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="name">Số điện thoại <abbr class="required"
+                                                        title="required">*</abbr></label>
+
+                                            <input id="phone" class="form-control">
+                                            <!-- formControlName="phone"  -->
+
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="name">Quốc gia <abbr class="required"
+                                                        title="required">*</abbr></label>
+
+                                            <input id="city" type="text" class="form-control" pInputText />
+                                            <!-- formControlName="city" -->
+                                            <small class="p-error">Bạn chưa điền vào trường này</small>
+                                            <!-- *ngIf="checkoutForm['country'].invalid && isSubmitted"  -->
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="name">Postcode / ZIP </label>
+                                            <input id="zip" type="text" class="form-control" pInputText />
+                                            <!-- formControlName="zip" -->
+                                            <small class="p-error">Bạn chưa điền vào trường này</small>
+                                            <!-- *ngIf="checkoutForm['zip'].invalid && isSubmitted" -->
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="name">Tỉnh/Thành phố <abbr class="required"
+                                                        title="required">*</abbr></label>
+                                            <input id="city" type="text" class="form-control" pInputText />
+                                            <!-- formControlName="city" -->
+                                            <small class="p-error">Bạn chưa điền vào trường này</small>
+                                            <!-- *ngIf="checkoutForm['city'].invalid && isSubmitted"  -->
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="name">Quận/Huyện <abbr class="required"
+                                                        title="required">*</abbr></label>
+                                            <input id="district" type="text" class="form-control" pInputText />
+                                            <!-- formControlName="district" -->
+                                            <small class="p-error">Bạn chưa điền vào trường này</small>
+                                            <!-- *ngIf="checkoutForm['district'].invalid && isSubmitted" -->
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="name">Địa chỉ chi tiết <abbr class="required"
+                                                        title="required">*</abbr></label>
+                                            <input id="street" type="text" class="form-control" pInputText />
+                                            <!-- formControlName="street" -->
+                                            <small class="p-error">Bạn chưa điền vào trường này</small>
+                                            <!-- *ngIf="checkoutForm['street'].invalid && isSubmitted"  -->
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="form-group mb-0">
+                                                <label for="orderNotes"> Ghi chú (Tuỳ chọn)</label>
+                                                <textarea id="orderNotes" class="form-control" placeholder="Chú thích cho đơn hàng của bạn"></textarea>
+                                                <!-- formControlName="orderNotes"  -->
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+
+                    <div class="checkout-order-details-wrap">
+                        <div class="order-details-table-wrap table-responsive">
+                            <h2 class="title mb-25">Đơn hàng của bạn</h2>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="product-name">Sản phẩm</th>
+                                        <th class="product-total">Tổng</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-body">
+                                    <tr class="cart-item">
+                                        <!-- *ngFor="let item of cartItems" -->
+                                        <td class="product-name"> item.name <span class="product-quantity">×
+                                                 item.quantity</span></td>
+                                        <td class="product-total">item.price * item.quantit.000 đ</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot class="table-foot">
+                                    <tr class="cart-subtotal">
+                                        <th>Tổng cộng</th>
+                                        <td>orderTota.000 đ</td>
+                                    </tr>
+                                    <tr class="shipping">
+                                        <th>Phí vận chuyển</th>
+                                        <td> shippingFee.000 đ</td>
+
+                                    </tr>
+                                    <tr class="order-total">
+                                        <th>Khuyến mãi </th>
+                                        <td>discoun.000 đ</td>
+                                    </tr>
+                                    <tr class="order-total">
+                                        <th>Tổng đơn hàng </th>
+                                        <td>totalAmoun.000 đ</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <div class="shop-payment-method">
+                                <div id="PaymentMethodAccordion">
+                                    <div class="card">
+                                        <div class="card-header" id="check_payments">
+                                            <h5 class="title">Chuyển khoản ngân hàng
+                                            </h5>
+                                            <!-- data-bs-toggle="collapse" data-bs-target="#itemOne" aria-controls="itemOne" aria-expanded="true" (click)="selectPayment('Bank')" -->
+                                        </div>
+                                        <div id="itemOne" class="collapse show">
+                                            <!-- aria-labelledby="check_payments" data-bs-parent="#PaymentMethodAccordion" -->
+                                            <div class="card-body">
+                                                <p>Chuyển khoản trong vòng 24 giờ sau khi đặt hàng<br> Chủ tài khoản: TRUONG HOANG ANH<br> Số tài khoản: 16610000089610<br> Ngân hàng Đầu tư và Phát triển Việt Nam BIDV – Chi nhánh Sở Giao dịch 2<br> Nội dung
+                                                    thanh toán theo cú pháp: [Họ tên] – [Số điện thoại]<br> *Vui lòng thực hiện thanh toán trong vòng 24 giờ sau khi đặt hàng. Đơn hàng sẽ bị hủy nếu chưa nhận được chuyển khoản quá thời gian trên.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="check_payments3">
+                                            <h5 class="title">Ví Momo</h5>
+                                            <!-- data-bs-toggle="collapse" data-bs-target="#itemThree" aria-controls="itemTwo" aria-expanded="false" (click)="selectPayment('Momo')" -->
+                                        </div>
+                                        <div id="itemThree" class="collapse">
+                                            <!-- aria-labelledby="check_payments3" data-bs-parent="#PaymentMethodAccordion" -->
+                                            <div class="card-body">
+
+                                                <p>0911 082 822 – TRUONG HOANG ANH
+                                                    <br> Nội dung thanh toán theo cú pháp: [Họ tên] – [Số điện thoại]<br> *Vui lòng thực hiện thanh toán trong vòng 24 giờ sau khi đặt hàng. Đơn hàng sẽ bị hủy nếu chưa nhận được chuyển khoản quá thời gian
+                                                    trên.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="check_payments4">
+                                            <h5 class="title">Thanh toán khi nhận hàng
+                                            </h5>
+                                            <!-- data-bs-toggle="collapse" data-bs-target="#itemFour" aria-controls="itemTwo" aria-expanded="false" (click)="selectPayment('COD')" -->
+                                        </div>
+                                        <div id="itemFour" class="collapse">
+                                            <!-- aria-labelledby="check_payments4" data-bs-parent="#PaymentMethodAccordion" -->
+                                            <div class="card-body">
+                                                <p>Thanh toán khi nhận hàng</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="p-text">Dữ liệu cá nhân của chúng tôi sẽ được sử dụng để xử lý đơn đặt hàng của bạn, hỗ trợ trải nghiệm của bạn trên trang web này và cho các mục đích khác được mô tả trong phần của chúng tôi.
+                                    <a href="#">Chính sách bảo mật</a>
+                                    <!-- routerLink="/chinhsach/chinh-sach-bao-mat" routerLinkActive="active" -->
+                                </p>
+
+                                <a class="btn-place-order">Đặt hàng</a>
+                                <!-- (click)="placeOrder()" -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+</body>
