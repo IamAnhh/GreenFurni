@@ -1,0 +1,256 @@
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+.welcome-section {
+  text-align: center;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Căn giữa theo chiều ngang */
+  justify-content: center; /* Căn giữa theo chiều dọc */
+  text-align: center; /* Căn giữa văn bản bên trong */
+}
+.welcome-title {
+  color: #4c704d;
+  text-align: center;
+  font-family: Literata;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.welcome-description {
+  color: #4c704d;
+  text-align: center;
+  font-family: Literata;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 965px;
+}
+
+.brand-story {
+  padding: 15px 0;
+}
+.brand-story-content {
+  display: flex;
+  gap: 20px;
+  height: fit-content;
+  margin: 0 auto;
+}
+.brand-story-image {
+  width: 32%;
+  height: auto;
+}
+.brand-story-text {
+  color: #fff;
+  text-align: center;
+  font-family: Literata;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #9ab76b;
+  align-self: center;
+  padding: 40px;
+}
+.production-process {
+  text-align: center;
+  padding: 20px 0;
+}
+.section-title {
+  color: #4c704d;
+  text-align: center;
+  font-family: Literata;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-subtitle {
+  color: #4c704d;
+  text-align: center;
+  font-family: Literata;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.process-image {
+  width: 1200px;
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0 10px 0px;
+}
+.process-steps {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #4c704d;
+  text-align: center;
+  font-family: Literata;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.plastic-collection,
+.cleaning-process {
+  display: flex;
+  gap: 20px;
+  height: fit-content;
+  margin: 0 auto;
+}
+.plastic-collection,
+.production-process,
+.cleaning-process,
+.team-section {
+  margin: 0 30px;
+}
+.collection-image,
+.cleaning-image {
+  width: 32%;
+  height: auto;
+}
+.collection-content,
+.cleaning-content {
+  display: flex;
+  flex-direction: column;
+  color: #4c704d;
+}
+.collection-title,
+.cleaning-title {
+  color: #4c704d;
+  font-family: Literata;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.collection-description,
+.cleaning-description {
+  color: #4c704d;
+  font-family: Literata;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contact-button {
+  height: 37px;
+  background-color: white;
+  color: #4c704d;
+  font-family: Literata;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  border: none;
+}
+
+.design-production {
+  background-color: #9ab76b;
+  color: #fff;
+  margin-top: 20px;
+  padding: 70px 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.design-content,
+.delivery-content {
+  flex: 1;
+}
+.design-title,
+.delivery-title {
+  font-family: Literata;
+  margin-bottom: 24px;
+}
+.design-description,
+.delivery-description {
+  font-family: Literata;
+}
+.team-section {
+  text-align: center;
+  color: #4c704d;
+  padding: 53px 0;
+}
+.team-title {
+  font: 700 30px Literata;
+  margin-bottom: 38px;
+}
+.team-description {
+  font: 400 20px Literata;
+  max-width: 820px;
+  margin: 0 auto 40px;
+}
+.cta-button {
+  background-color: #4c704d;
+  color: var(--White, #fff);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font: 700 14px/24px Literata, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Literata;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media (max-width: 991px) {
+  .welcome-section {
+    padding: 20px 10px 0 10px;
+  }
+  .welcome-description {
+    display: none;
+  }
+  .banner-image {
+  display: none;
+}
+
+  .brand-story-content,
+  .plastic-collection,
+  .cleaning-process,
+  .design-production {
+    flex-direction: column;
+  }
+  .brand-story-content,
+  .plastic-collection,
+  .cleaning-process {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa theo chiều ngang */
+  }
+  .brand-story-image {
+    width: 60%;
+    height: auto;
+  }
+  .brand-story-text {
+    font-size: 20px;
+  }
+  .section-subtitle {
+    font-size: 20px;
+  }
+  .collection-process,
+  .production-process,
+  .cleaning-process.design-content,
+  .delivery-content,
+  .team-section {
+    margin: 0 10px;
+  }
+  .plastic-collection {
+    flex-direction: column-reverse;
+  }
+  .team-description {
+    margin: 15px;
+  }
+}
