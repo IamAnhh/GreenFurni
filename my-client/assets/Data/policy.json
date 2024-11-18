@@ -1,0 +1,82 @@
+{
+  "policies": [
+    {
+      "name": "Chính sách bảo mật thông tin khách hàng",
+      "description": "Chính sách bảo vệ thông tin cá nhân của khách hàng trên trang web Greenfurni.com.",
+      "details": {
+        "introduction": "Tại Greenfurni.com, chúng tôi cam kết bảo vệ thông tin cá nhân của bạn. Chính sách này mô tả cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi truy cập trang web.",
+        "data_collection": {
+          "personal_info": "Chúng tôi có thể thu thập các thông tin cá nhân như tên, địa chỉ email, địa chỉ IP và thông tin khác để cung cấp dịch vụ và nâng cao trải nghiệm người dùng.",
+          "usage_info": "Chúng tôi cũng thu thập thông tin về cách bạn sử dụng trang web để cải thiện dịch vụ, như các trang đã truy cập và thời gian lưu lại trên mỗi trang."
+        },
+        "data_protection": {
+          "measures": "Thông tin cá nhân được bảo vệ khỏi mất mát, truy cập trái phép và chỉ cho phép nhân viên được phép truy cập.",
+          "restrictions": "Chúng tôi không bán hoặc chia sẻ thông tin cá nhân với bên thứ ba trừ khi có sự đồng ý của bạn hoặc để tuân thủ quy định pháp luật."
+        },
+        "cookies_usage": "Trang web sử dụng cookie để theo dõi hoạt động của người dùng, giúp cải thiện trải nghiệm. Bạn có thể từ chối sử dụng cookie trong cài đặt trình duyệt.",
+        "third_party_links": "Trang web có thể chứa liên kết tới các trang web bên thứ ba. Chúng tôi không chịu trách nhiệm về nội dung hoặc chính sách bảo mật của các trang này.",
+        "policy_updates": "Chúng tôi có thể cập nhật chính sách bảo mật khi cần thiết. Khách hàng được khuyến khích kiểm tra để hiểu rõ các thay đổi.",
+        "contact": "Liên hệ với chúng tôi qua email hoặc số điện thoại trên trang web nếu có bất kỳ câu hỏi nào liên quan đến chính sách bảo mật."
+      }
+    },
+    {
+      "name": "Chính sách đổi trả",
+      "description": "Chính sách hướng dẫn việc đổi trả sản phẩm tại Greenfurni.com.",
+      "details": {
+        "exchange_and_return_rules": {
+          "technical_issues": "Khách hàng cần kiểm tra hàng khi nhận. Nếu có lỗi kỹ thuật, thông báo ngay cho nhân viên giao hàng.",
+          "unsuitability": "Nếu hàng không phù hợp với nhu cầu, khách hàng có thể trả lại trong vòng 24h và nhận lại 80% giá trị.",
+          "product_exchange": "Khách hàng có thể đổi sang sản phẩm khác trong vòng 24h, được hoàn lại 85% giá trị.",
+          "order_changes": "Khách hàng có thể thay đổi một phần đơn hàng trong vòng 24h kể từ thời điểm xác nhận đặt hàng."
+        },
+        "conditions": {
+          "unused": "Sản phẩm phải chưa qua sử dụng và không bị hư hỏng.",
+          "original_packaging": "Sản phẩm phải được gói cẩn thận cùng hóa đơn mua hàng gốc.",
+          "exclusions": "Không đổi trả hàng hưởng chiết khấu, quá hạn, hoặc nội thất phòng ngủ."
+        },
+        "return_process": "Khách hàng liên hệ với Greenfurni và cung cấp thông tin đơn hàng, lý do đổi trả."
+      }
+    },
+    {
+      "name": "Chính sách giao hàng",
+      "description": "Chính sách giao hàng của Greenfurni bao gồm quy định về thời gian và chi phí giao hàng.",
+      "details": {
+        "delivery_commitment": "Greenfurni cam kết cung cấp dịch vụ giao hàng tối ưu nhất cho khách hàng.",
+        "schedule": "Giao hàng trong vòng ba ngày kể từ khi ký đơn hàng và thanh toán.",
+        "free_delivery_conditions": "Đơn hàng trên 5 triệu VNĐ sẽ được miễn phí giao hàng trong bán kính 10km từ trung tâm Greenfurni.",
+        "fee_for_long_distance": "Đơn hàng dưới 5 triệu hoặc ngoài 10km sẽ chịu phí vận chuyển phù hợp.",
+        "delivery_time_change": "Khách hàng có thể thay đổi thời gian giao hàng bằng cách thông báo trước 24h.",
+        "pick_up_deadline": "Khách hàng cần nhận hàng trong vòng 10 ngày kể từ khi xác nhận giao hàng."
+      }
+    },
+    {
+      "name": "Chính sách bảo hành sản phẩm",
+      "description": "Chính sách bảo hành sản phẩm của Greenfurni nhằm đảm bảo quyền lợi khách hàng khi mua sản phẩm nội thất tái chế.",
+      "details": {
+        "warranty_scope": {
+          "applicable_products": "Áp dụng cho các sản phẩm nội thất tái chế từ Greenfurni, thời gian bảo hành từ 6 đến 24 tháng.",
+          "warranty_conditions": "Bảo hành cho lỗi phát sinh do nhà sản xuất như lỗi chất liệu, cấu trúc, hoặc lắp ráp."
+        },
+        "exclusions": {
+          "user_fault": "Không bảo hành cho lỗi do người sử dụng như tác động ngoại lực hoặc lắp đặt sai cách.",
+          "environmental_impact": "Không bảo hành nếu sản phẩm bị hỏng do môi trường bên ngoài như độ ẩm cao, ánh sáng mặt trời trực tiếp.",
+          "third_party_repair": "Không bảo hành nếu sản phẩm đã bị sửa chữa bởi bên thứ ba không phải Greenfurni.",
+          "expired_warranty": "Không bảo hành nếu sản phẩm đã hết thời hạn bảo hành."
+        },
+        "warranty_process": {
+          "request": "Khách hàng liên hệ Greenfurni với thông tin đơn hàng và mô tả tình trạng sản phẩm cần bảo hành.",
+          "evaluation": "Greenfurni sẽ kiểm tra và phản hồi phương án bảo hành trong vòng 3-5 ngày làm việc."
+        },
+        "warranty_method": {
+          "repair": "Sửa chữa miễn phí cho lỗi nhỏ, có thể khắc phục tại trung tâm bảo hành hoặc tại nơi khách hàng.",
+          "replacement": "Nếu không thể sửa chữa, sản phẩm sẽ được đổi mới hoặc hoàn tiền theo giá trị tại thời điểm mua."
+        },
+        "warranty_cost": {
+          "free": "Miễn phí bảo hành cho lỗi nhà sản xuất trong thời gian bảo hành.",
+          "paid_service": "Nếu sản phẩm không được bảo hành miễn phí, khách hàng sẽ chịu phí sửa chữa, thông báo trước khi thực hiện."
+        },
+        "contact": "Liên hệ với Greenfurni qua email hoặc hotline để được hỗ trợ bảo hành."
+      }
+    }
+  ]
+}
