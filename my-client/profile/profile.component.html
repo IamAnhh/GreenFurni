@@ -1,0 +1,43 @@
+<main class="profile-page mb-5">
+  <div class="profile-container">
+    <app-sidebar></app-sidebar>
+    <section class="main-content">
+      <header class="content-header">
+        <h1 class="page-title">THÔNG TIN TÀI KHOẢN</h1>
+        <p class="page-description">Quản lý thông tin hồ sơ để bảo mật tài khoản</p>
+      </header>
+      <hr class="divider" />
+      <div class="profile-details">
+        <div class="details-container ">
+          <div class="row">
+            <div class="col-md-4 labels">
+              <p>Họ và tên:</p>
+              <p>Số điện thoại:</p>
+              <p>Email:</p>
+              <p>Giới tính:</p>
+              <p>Ngày sinh:</p>
+              <p>Avatar:</p>
+            </div>
+            <div class="col-md-8 values">
+              <input type="text" [(ngModel)]="formData.name" [readonly]="!isEditing" placeholder="Họ và tên" class="form-control mb-3" />
+              <input type="tel" [(ngModel)]="formData.phone" [readonly]="!isEditing" placeholder="Số điện thoại" class="form-control  mb-3" />
+              <input type="email" [(ngModel)]="formData.email" [readonly]="!isEditing" placeholder="Email" class="form-control mb-3" />
+              <select [(ngModel)]="formData.gender" [disabled]="!isEditing" class="form-select  mb-3">
+                <option value="Nam">Nam</option>
+                <option value="Nữ">Nữ</option>
+                <option value="Khác">Khác</option>
+              </select>
+              <input type="date" [(ngModel)]="formData.birthDate" [readonly]="!isEditing" placeholder="Ngày sinh" class="form-control  mb-3" />
+              <input type="file" (change)="onAvatarSelected($event)" [disabled]="!isEditing" class="form-control mb-3" />
+              <img *ngIf="formData.avatar" [src]="formData.avatar" alt="User avatar" class="user-avatar" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <button *ngIf="!isEditing" (click)="onEdit()" class="edit-button btn">Chỉnh sửa</button>
+      <button *ngIf="isEditing" (click)="onSave()" class="edit-button btn">Lưu thông tin</button>
+
+
+    </section>
+  </div>
+</main>
