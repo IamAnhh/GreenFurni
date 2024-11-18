@@ -1,0 +1,75 @@
+<main class="address-page ">
+  <div class="address-container">
+    <app-sidebar></app-sidebar>
+    <section class="main-content">
+      <header class="content-header">
+        <h1 class="page-title">ĐỊA CHỈ</h1>
+        <p class="page-description">Quản lí các địa chỉ giao hàng, cài đặt địa chỉ mặc định</p>
+      </header>
+      <hr class="divider" />
+<!-- Nút Thêm Địa Chỉ -->
+<button class="edit-button mt-3" (click)="showAddressForm = true">+ THÊM ĐỊA CHỈ MỚI</button>
+<!-- Form nhập thông tin địa chỉ -->
+<div *ngIf="showAddressForm" class="address-form-overlay">
+  <div class="address-form-container">
+    <h2 class="text-center">Thêm địa chỉ mới</h2>
+        <form (ngSubmit)="saveAddress()">
+          <label for="name">Tên:</label>
+          <input type="text" id="name" [(ngModel)]="newAddress.name" name="name" required>
+          <label for="phone">Số điện thoại:</label>
+          <input type="text" id="phone" [(ngModel)]="newAddress.phone" name="phone" required>
+
+          <!-- Chọn tỉnh -->
+         <label class="mt-2" for="province">Chọn Tỉnh / Thành phố:</label>
+          <select id="province" [(ngModel)]="newAddress.province" name="province" (change)="onProvinceChange(newAddress.province)" required>
+          <option *ngFor="let province of provinces" [value]="province.code">{{ province.name }}</option>
+          </select>
+
+          <!-- Chọn huyện -->
+          <label class="mt-2" for="district">Chọn Quận / Huyện:</label>
+          <select id="district" [(ngModel)]="newAddress.district" name="district" (change)="onDistrictChange(newAddress.district)" required>
+          <option *ngFor="let district of filteredDistricts" [value]="district.code">{{ district.name }}</option>
+          </select>
+
+          <!-- Chọn xã -->
+          <label class="mt-2" for="ward">Chọn Xã / Phường:</label>
+          <select id="ward" [(ngModel)]="newAddress.ward" name="ward" required>
+            <option  *ngFor="let ward of filteredWards" [value]="ward.code">{{ ward.name }}</option>
+          </select>
+
+          <label class="mt-4" for="addressDetail">Địa chỉ chi tiết:</label>
+          <textarea id="addressDetail" [(ngModel)]="newAddress.addressDetail" name="addressDetail" required></textarea>
+
+          <label for="isDefault">
+            <input type="checkbox" [(ngModel)]="newAddress.isDefault" name="isDefault">
+            Đặt làm địa chỉ mặc định
+          </label>
+
+          <button type="submit">Lưu</button>
+          <button type="button" class="cancel-btn" (click)="showAddressForm = false">Hủy</button>
+        </form>
+      </div>
+    </div>
+        <div class="container-address">
+          <div *ngFor="let address of addresses" class="address-card mt-3">
+            <header class="address-header">
+              <h2 class="name">{{ address.name }}</h2>
+              <p class="phone">{{ address.phone }}</p>
+            </header>
+            <p class="address">
+              {{ address.addressDetail }}, {{ address.ward }}, {{ address.district }}, {{ address.province }}
+            </p>
+            <footer class="address-footer">
+              <button *ngIf="address.isDefault" class="default-tag">Địa chỉ mặc định</button>
+              <button *ngIf="!address.isDefault" class="default-tag" (click)="setDefault(address)">Đặt làm địa chỉ mặc định</button>
+              <div class="action-buttons">
+                <button class="action-btn delete" (click)="deleteAddress(address)">Xóa</button>
+                <button class="action-btn edit" (click)="editAddress(address)">Chỉnh sửa</button>
+              </div>
+            </footer>
+          </div>
+        </div>
+
+    </section>
+  </div>
+</main>
