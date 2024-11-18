@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DANH MỤC CHÍNN SÁCH</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <style></style>
+  </head>
+
+  <main class="policy-page">
+    <section class="policy-content">
+      <div class="sidebar">
+        <h2>DANH MỤC CHÍNH SÁCH</h2>
+        <hr style="border: 1px solid #4caf50; width: 100%" />
+        <ul>
+          <li
+            [ngClass]="{ selected: selectedOption === 'banHang' }"
+            (click)="setSelectedOption('banHang')"
+          >
+            CHÍNH SÁCH BẢO MẬT
+          </li>
+          <li
+            [ngClass]="{ selected: selectedOption === 'baoMat' }"
+            (click)="setSelectedOption('baoMat')"
+          >
+            CHÍNH SÁCH ĐỔI TRẢ
+          </li>
+          <li
+            [ngClass]="{ selected: selectedOption === 'dieuKhoanDichVu' }"
+            (click)="setSelectedOption('dieuKhoanDichVu')"
+          >
+            CHÍNH SÁCH GIAO HÀNG
+          </li>
+          <li
+            [ngClass]="{ selected: selectedOption === 'doiTra' }"
+            (click)="setSelectedOption('doiTra')"
+          >
+            CHÍNH SÁCH BẢO HÀNH
+          </li>
+        </ul>
+      </div>
+
+      <article class="policy-details" *ngIf="selectedOption === 'banHang'">
+        <h1 class="policy-title">CHÍNH SÁCH BẢO MẬT THÔNG TIN KHÁCH HÀNG</h1>
+
+        <h2 class="policy-subtitle">1. Thu thập thông tin cá nhân</h2>
+        <p class="policy-text">
+          Khi bạn truy cập trang web Greenfurni.com, chúng tôi có thể thu thập
+          thông tin cá nhân của bạn, bao gồm tên, địa chỉ email, địa chỉ IP và
+          các thông tin khác. Chúng tôi sử dụng thông tin này để cung cấp dịch
+          vụ cho bạn và để cải thiện trải nghiệm của bạn trên trang web của
+          chúng tôi.
+        </p>
+        <p class="policy-text">
+          Chúng tôi cũng có thể thu thập thông tin về cách bạn sử dụng trang web
+          Greenfurni.com, bao gồm các trang bạn truy cập và thời gian bạn dành
+          cho mỗi trang. Thông tin này giúp chúng tôi cải thiện trang web của
+          chúng tôi và đáp ứng nhu cầu của khách hàng.
+        </p>
+
+        <h2 class="policy-subtitle">2. Bảo mật thông tin cá nhân</h2>
+        <p class="policy-text">
+          Chúng tôi sử dụng các biện pháp bảo mật để bảo vệ thông tin cá nhân
+          của bạn khỏi mất mát, truy cập trái phép hoặc sử dụng không đúng mục
+          đích. Chúng tôi lưu trữ thông tin cá nhân của bạn trên các máy chủ an
+          toàn và chỉ cho phép nhân viên được phép truy cập thông tin này để
+          cung cấp dịch vụ cho bạn.
+        </p>
+        <p class="policy-text">
+          Chúng tôi không bán, cho thuê hoặc chia sẻ thông tin cá nhân của bạn
+          với bất kỳ bên thứ ba nào trừ khi được sự đồng ý của bạn hoặc nếu cần
+          thiết để tuân thủ các quy định pháp luật hoặc để bảo vệ quyền lợi của
+          chúng tôi.
+        </p>
+
+        <h2 class="policy-subtitle">3. Sử dụng Cookie</h2>
+        <p class="policy-text">
+          Trang web Greenfurni.com có thể sử dụng cookie để theo dõi hoạt động
+          của người dùng trên trang web của chúng tôi. Cookie là các tệp văn bản
+          nhỏ được lưu trữ trên ổ đĩa của bạn và giúp chúng tôi cung cấp dịch vụ
+          tốt hơn cho khách hàng của mình. Bạn có thể từ chối sử dụng cookie
+          bằng cách tắt tính năng này trong trình duyệt của mình, tuy nhiên điều
+          này có thể ảnh hưởng đến trải nghiệm của bạn trên trang web
+          Greenfurni.com.
+        </p>
+
+        <h2 class="policy-subtitle">
+          4. Liên kết đến các trang web bên thứ ba
+        </h2>
+        <p class="policy-text">
+          Trang web Greenfurni.com có thể chứa liên kết đến các trang web bên
+          thứ ba. Chúng tôi không chịu trách nhiệm về nội dung hoặc chính sách
+          bảo mật của các trang web này. Chúng tôi khuyên bạn nên đọc kỹ chính
+          sách bảo mật của các trang web bên thứ ba trước khi cung cấp thông tin
+          cá nhân của bạn.
+        </p>
+
+        <h2 class="policy-subtitle">5. Cập nhật chính sách bảo mật</h2>
+        <p class="policy-text">
+          Chúng tôi có thể cập nhật chính sách bảo mật này từ thời gian này đến
+          thời gian khác để phản ánh các thay đổi trong phương thức thu thập, sử
+          dụng và bảo vệ thông tin cá nhân của chúng tôi. Chúng tôi khuyên bạn
+          nên đọc kỹ chính sách bảo mật này để hiểu rõ hơn về cách chúng tôi bảo
+          vệ thông tin cá nhân của bạn.
+        </p>
+
+        <h2 class="policy-subtitle">6. Liên hệ chúng tôi</h2>
+        <p class="policy-text">
+          Nếu bạn có bất kỳ câu hỏi hoặc bất kỳ yêu cầu nào liên quan đến chính
+          sách bảo mật của chúng tôi, vui lòng liên hệ với chúng tôi qua email
+          hoặc số điện thoại được cung cấp trên trang web Greenfurni.com.
+        </p>
+
+        <h2 class="policy-subtitle">Kết luận</h2>
+        <p class="policy-text">
+          Chính sách bảo mật thông tin của chúng tôi nhằm mục đích bảo vệ thông
+          tin cá nhân của khách hàng và đảm bảo rằng chúng tôi tuân thủ các quy
+          định pháp luật liên quan đến bảo mật thông tin. Chúng tôi hy vọng rằng
+          chính sách bảo mật này sẽ giúp bạn hiểu rõ hơn về cách chúng tôi thu
+          thập, sử dụng và bảo vệ thông tin cá nhân của bạn khi bạn truy cập và
+          sử dụng trang web Greenfurni.com.
+        </p>
+      </article>
+
+      <article class="policy-details" *ngIf="selectedOption === 'baoMat'">
+        <h1 class="policy-title">CHÍNH SÁCH ĐỔI TRẢ</h1>
+
+        <h2 class="policy-subtitle">1. Các quy định đổi và trả hàng</h2>
+        <p class="policy-text">
+          Trả lại hàng do lỗi kỹ thuật: <br />Ngay khi nhận hàng, quý khách vui
+          lòng kiểm tra kỹ. Nếu phát hiện ra bất kỳ lỗi kỹ thuật nào, quý khách
+          cần thông báo ngay cho nhân viên giao hàng của Greenfurni. Sau thời
+          gian này, Greenfurni sẽ không đổi hàng và sẽ áp dụng quy định bảo hành
+          với các sản phẩm này.
+        </p>
+
+        <p class="policy-text">
+          Trả lại hàng do không phù hợp nhu cầu:<br />
+          Khi đã nhận hàng, nếu quý khách nhận thấy hàng không phù hợp với nhu
+          cầu, quý khách có thể trả lại hàng trong vòng 24h kể từ thời điểm nhận
+          hàng. Trong trường hợp này quý khách sẽ nhận lại 80% giá trị của hàng
+          trả lại.
+        </p>
+        <p class="policy-text">
+          Đổi sang sản phẩm khác:<br />
+          Sau khi đã mua, nếu quý khách không hài lòng với sản phẩm hoặc thay
+          đổi nhu cầu, quý khách có thể thông báo với Greenfurni trong vòng 24h
+          sau khi giao hàng để được đổi sang sản phẩm khác. Greenfurni có thể
+          đổi sang sản phẩm với mức giá tiền tương đương hoặc lớn hơn. Trong
+          trường hợp này quý khách sẽ nhận lại 85% giá trị của hàng trả lại, 15%
+          còn lại sẽ được Greenfurni sử dụng để chi trả cho các chi phí phát
+          sinh liên quan tới vận chuyển, lắp đặt, tháo dỡ, đóng gói…
+        </p>
+        <p class="policy-text">
+          Thay đổi đơn hàng khi chưa nhận hàng:<br />
+          Sau khi đã xác nhận đơn hàng & thanh toán đặt cọc, nếu quý khách có
+          nhu cầu thay đổi một phần đơn hàng (tăng giảm số lượng hoặc đổi sang
+          sản phẩm khác), quý khách cần thông báo với Greenfurni trong vòng 24h
+          kể từ thời điểm xác nhận đơn hàng & thanh toán tiền đặt cọc. (Giá trị
+          đơn hàng sau khi thay đổi sẽ không thấp hơn số tiền đã đặt cọc).
+        </p>
+
+        <h2 class="policy-subtitle">2. Các điều kiện đổi trả hàng</h2>
+        <ul class="policy-list">
+          <li class="policy-item">
+            Hàng hóa chưa qua sử dụng và không bị hư hỏng do lỗi khách hàng, còn
+            bao bì.
+          </li>
+          <li class="policy-item">
+            Hàng hóa đổi trả phải được bọc cẩn thận cùng với hóa đơn mua hàng
+            gốc và phiếu giao hàng.
+          </li>
+          <li class="policy-item">
+            Không đổi hàng bán có hưởng chiết khấu / khuyến mãi.
+          </li>
+          <li class="policy-item">Không đổi hàng đã quá hạn thông báo.</li>
+          <li class="policy-item">
+            Không đổi / trả các sản phẩm nội thất phòng ngủ.
+          </li>
+        </ul>
+
+        <h2 class="policy-subtitle">3. Quy trình đổi trả hàng</h2>
+        <p class="policy-text">
+          Khi có nhu cầu muốn đổi/trả hàng, quý khách vui lòng liên hệ với
+          Greenfurni và cung cấp các thông tin sau:
+        </p>
+        <ul class="policy-list">
+          <li class="policy-item">
+            Họ tên, địa điểm giao nhận hàng, số điện thoại liên hệ.
+          </li>
+          <li class="policy-item">Thời gian đã nhận hàng.</li>
+          <li class="policy-item">
+            Loại hàng muốn đổi trả, lý do đổi trả hàng.
+          </li>
+        </ul>
+      </article>
+
+      <article
+        class="policy-details"
+        *ngIf="selectedOption === 'dieuKhoanDichVu'"
+      >
+        <h1 class="policy-title">CHÍNH SÁCH GIAO HÀNG</h1>
+        <p class="policy-text" style="font-size: larger">
+          Greenfurni cam kết mang tới cho quý khách dịch vụ giao hàng tối ưu
+          nhất.
+        </p>
+        <h2 class="policy-subtitle">1. Quy trình giao hàng:</h2>
+        <p class="policy-text">
+          Theo lịch giao hàng đã thống nhất trước với quý khách, kỹ thuật viên
+          của Greenfurni sẽ trực tiếp vận chuyển hàng tới tận nhà, lắp ráp và tư
+          vấn sử dụng cho quý khách. Việc giao hàng sẽ được thực hiện trong vòng
+          ba ngày kể từ khi ký đơn hàng & thanh toán đặt cọc đối với các sản
+          phẩm có sẵn.
+        </p>
+        <h2 class="policy-subtitle">2. Chính sách miễn phí:</h2>
+        <p class="policy-text">
+          Với những đơn hàng có giá trị trên 5 triệu VNĐ, Greenfurni miễn phí
+          giao hàng & lắp đặt tại những địa điểm giao hàng nằm trong bán kính
+          10km tính từ trung tâm Greenfurni nơi khách đặt hàng. Chương trình
+          miễn phí giao hàng sẽ chỉ áp dụng một lần cho mỗi đơn hàng. Trong
+          trường hợp khách hàng muốn tự vận chuyển & lắp đặt những đơn hàng được
+          hưởng dịch vụ giao miễn phí, Greenfurni sẽ chiết khấu 3% tổng giá trị
+          đơn hàng đó.
+        </p>
+        <h2 class="policy-subtitle">3. Chi phí vận chuyển:</h2>
+        <p class="policy-text">
+          Với những đơn hàng có giá trị dưới 5 triệu VNĐ hoặc có khoảng cách
+          trên 10km, Greenfurni sẽ đề nghị mức phí hợp lý cho từng vị trí cụ
+          thể, với từng chủng loại hàng hóa để bảo đảm tiết giảm tối đa chi phí
+          phát sinh cho quý khách.
+        </p>
+        <h2 class="policy-subtitle">4. Thay đổi thời gian giao hàng:</h2>
+        <p class="policy-text">
+          Trong trường hợp khách hàng muốn thay đổi thời gian giao hàng, xin vui
+          lòng liên hệ với Greenfurni tối thiểu 24h trước khi giao hàng, chúng
+          tôi sẽ cố gắng đáp ứng theo thời gian yêu cầu của khách hàng.
+        </p>
+        <h2 class="policy-subtitle">5. Thời hạn nhận hàng đã mua:</h2>
+        <p class="policy-text">
+          Sau khi đã đặt hàng, quý khách cần hoàn tất các thủ tục & nhận hàng
+          trong vòng 10 ngày kể từ thời điểm giao hàng đã xác nhận trong đơn
+          hàng. Nếu quá thời hạn này quý khách sẽ chịu phí lưu kho tương tương
+          2% giá trị hàng hóa mỗi ngày và lưu kho không quá 30 ngày. Sau 30 ngày
+          nếu khách hàng không nhận hàng, không phản hồi lại thì đơn hàng sẽ tự
+          hủy và Greenfurni sẽ không trả lại khoản tiền đã đặt cọc.
+        </p>
+      </article>
+
+      <article class="policy-details" *ngIf="selectedOption === 'doiTra'">
+        <h1 class="policy-title">CHÍNH SÁCH BẢO HÀNH SẢN PHẨM</h1>
+        <p class="policy-text" style="font-size: larger">
+          GreenFurni cam kết cung cấp cho quý khách những sản phẩm nội thất tái
+          chế chất lượng cao nhất, cùng với dịch vụ chăm sóc khách hàng và bảo
+          hành hoàn hảo. Chính sách bảo hành của chúng tôi được thiết kế để đảm
+          bảo quyền lợi của khách hàng trong suốt quá trình sử dụng sản phẩm từ
+          GreenFurni.com.
+        </p>
+
+        <h2 class="policy-subtitle">1. Phạm vi bảo hành:</h2>
+        <p class="policy-text">
+          <strong>Sản phẩm áp dụng bảo hành:</strong> Tất cả các sản phẩm nội
+          thất tái chế được mua từ GreenFurni.com đều áp dụng chính sách bảo
+          hành theo các điều kiện cụ thể từng sản phẩm. Các sản phẩm này bao
+          gồm: bàn, ghế, bộ bàn ghế, tủ, kệ, và các sản phẩm nội thất khác. Thời
+          gian bảo hành sẽ được tính từ ngày quý khách nhận hàng và có thể dao
+          động từ 6 đến 24 tháng, tùy thuộc vào loại sản phẩm và điều kiện bảo
+          hành từng sản phẩm.
+        </p>
+        <p class="policy-text">
+          <strong>Điều kiện bảo hành:</strong> Các sản phẩm sẽ được bảo hành
+          miễn phí khi phát sinh lỗi từ phía nhà sản xuất, bao gồm các lỗi về
+          chất liệu, cấu trúc hoặc lắp ráp. Những lỗi này có thể là: bề mặt bị
+          phồng rộp, nứt vỡ mà không do tác động ngoại lực, hoặc các hư hỏng
+          liên quan đến khung và cấu trúc của sản phẩm khi sử dụng đúng cách.
+        </p>
+
+        <h2 class="policy-subtitle">2. Điều kiện không áp dụng bảo hành:</h2>
+        <p class="policy-text">
+          <strong>Lỗi do người sử dụng:</strong> Bảo hành sẽ không áp dụng cho
+          các sản phẩm bị hư hỏng do người sử dụng, ví dụ như việc sử dụng sai
+          mục đích, di chuyển hoặc lắp đặt sai cách, hoặc tác động ngoại lực quá
+          mức. Những hư hỏng này bao gồm việc sản phẩm bị biến dạng, gãy vỡ do
+          tác động từ môi trường (nhiệt độ cao, độ ẩm quá mức, ánh sáng mặt trời
+          trực tiếp, hóa chất, v.v.).
+        </p>
+        <p class="policy-text">
+          <strong>Tự ý sửa chữa:</strong> Bảo hành không áp dụng nếu sản phẩm bị
+          tháo lắp hoặc sửa chữa bởi các bên thứ ba không phải là GreenFurni
+          hoặc đội ngũ bảo hành chính thức của chúng tôi. Sản phẩm đã bị thay
+          đổi hoặc can thiệp trái phép sẽ không được bảo hành.
+        </p>
+        <p class="policy-text">
+          <strong>Hết thời gian bảo hành:</strong> Nếu sản phẩm đã vượt quá thời
+          gian bảo hành ghi trên phiếu bảo hành hoặc hóa đơn mua hàng, chúng tôi
+          sẽ không thực hiện bảo hành miễn phí.
+        </p>
+
+        <h2 class="policy-subtitle">3. Quy trình bảo hành:</h2>
+        <p class="policy-text">
+          <strong>Bước 1 - Yêu cầu bảo hành:</strong> Khi có yêu cầu bảo hành,
+          khách hàng vui lòng liên hệ với chúng tôi qua email hoặc hotline. Sau
+          đó, quý khách cần cung cấp thông tin đơn hàng, phiếu bảo hành, và mô
+          tả chi tiết tình trạng sản phẩm cần bảo hành. Để làm rõ tình trạng,
+          vui lòng gửi kèm hình ảnh hoặc video (nếu có) của sản phẩm.
+        </p>
+        <p class="policy-text">
+          <strong>Bước 2 - Đánh giá bảo hành:</strong> Sau khi nhận yêu cầu bảo
+          hành, đội ngũ của chúng tôi sẽ tiến hành kiểm tra và đánh giá tình
+          trạng sản phẩm để xác định nguyên nhân lỗi và điều kiện bảo hành.
+          Trong vòng 3-5 ngày làm việc, chúng tôi sẽ phản hồi về phương án xử lý
+          như sửa chữa, đổi mới sản phẩm hoặc các bước tiếp theo nếu cần thiết.
+        </p>
+
+        <h2 class="policy-subtitle">4. Phương thức bảo hành:</h2>
+        <p class="policy-text">
+          <strong>Sửa chữa sản phẩm:</strong> Đối với các lỗi nhỏ có thể khắc
+          phục, chúng tôi sẽ tiến hành sửa chữa miễn phí tại trung tâm bảo hành
+          hoặc tại nhà khách hàng nếu có yêu cầu. Đội ngũ kỹ thuật viên của
+          GreenFurni sẽ đảm bảo sản phẩm được khôi phục như ban đầu.
+        </p>
+        <p class="policy-text">
+          <strong>Đổi mới sản phẩm:</strong> Trong trường hợp sản phẩm không thể
+          sửa chữa hoặc cần thay thế do lỗi từ nhà sản xuất, chúng tôi sẽ tiến
+          hành đổi mới sản phẩm tương tự hoặc tương đương về giá trị và tính
+          năng. Nếu sản phẩm đã ngừng sản xuất hoặc hết hàng, GreenFurni sẽ thỏa
+          thuận với khách hàng để đổi sang sản phẩm khác hoặc hoàn lại tiền theo
+          giá trị sản phẩm tại thời điểm mua.
+        </p>
+
+        <h2 class="policy-subtitle">5. Chi phí bảo hành:</h2>
+        <p class="policy-text">
+          <strong>Bảo hành miễn phí:</strong> GreenFurni sẽ chịu toàn bộ chi phí
+          bảo hành đối với các lỗi phát sinh từ nhà sản xuất trong suốt thời
+          gian bảo hành được quy định.
+        </p>
+        <p class="policy-text">
+          <strong>Bảo hành có phí:</strong> Trong trường hợp sản phẩm không
+          thuộc diện bảo hành miễn phí (do lỗi người sử dụng, hết thời gian bảo
+          hành...), chúng tôi sẽ cung cấp dịch vụ sửa chữa có tính phí. Mức phí
+          sửa chữa sẽ được thông báo cho khách hàng trước khi thực hiện.
+        </p>
+        <p class="policy-text">
+          <strong>Chi phí vận chuyển:</strong> Nếu bảo hành được thực hiện tại
+          nhà, chi phí vận chuyển sẽ được miễn phí trong phạm vi nội thành. Đối
+          với các khách hàng ở các khu vực khác, phí vận chuyển sẽ được thỏa
+          thuận cụ thể trước khi thực hiện bảo hành.
+        </p>
+
+        <h2 class="policy-subtitle">6. Liên hệ và hỗ trợ bảo hành:</h2>
+        <p class="policy-text">
+          Để được hỗ trợ bảo hành, khách hàng vui lòng liên hệ với chúng tôi qua
+          các phương thức sau:
+          <br /><strong>Email:</strong> GreenFurni&#64;gmail.com <br /><strong
+            >Hotline:</strong
+          >
+          0123-456-789 <br /><strong>Địa chỉ trung tâm bảo hành:</strong> Số 669
+          Q 1, KP. 3, P. Linh Xuân, TP. Thủ Đức, TP. Hồ Chí Minh <br /><strong
+            >Thời gian làm việc:</strong
+          >
+          Từ 7h -18h mỗi ngày trong tuần, từ thứ 2 đến thứ 7.
+        </p>
+
+        <h2 class="policy-subtitle">7. Lưu ý quan trọng:</h2>
+        <p class="policy-text">
+          GreenFurni có quyền thay đổi và cập nhật chính sách bảo hành mà không
+          cần thông báo trước, nhằm phù hợp với các quy định pháp lý hiện hành
+          và nhu cầu kinh doanh. Khách hàng vui lòng đọc kỹ chính sách bảo hành
+          trước khi sử dụng sản phẩm để tránh hiểu lầm. Nếu có bất kỳ thắc mắc
+          nào, xin vui lòng liên hệ với chúng tôi để được giải đáp.
+        </p>
+        <p class="policy-text">
+          Chúng tôi hy vọng chính sách bảo hành này sẽ giúp quý khách yên tâm
+          hơn khi lựa chọn và sử dụng sản phẩm nội thất tái chế từ GreenFurni.
+          GreenFurni luôn cam kết đồng hành cùng quý khách trong suốt quá trình
+          sử dụng và bảo trì sản phẩm.
+        </p>
+      </article>
+    </section>
+  </main>
+</html>

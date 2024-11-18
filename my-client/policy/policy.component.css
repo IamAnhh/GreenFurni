@@ -1,0 +1,205 @@
+.policy-page {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding: 20px;
+}
+.policy-content {
+  display: flex;
+  gap: 20px;
+  padding: 56px 80px 0;
+}
+
+.sidebar {
+  width: 350px;
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 2px solid #4caf50;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+
+}
+
+.sidebar h2 {
+  color: #4caf50;
+  font-family: "Literata", serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.sidebar ul li {
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+  font-family: "Literata", serif;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Hiệu ứng hover: thêm đường viền dưới */
+.sidebar ul li:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background-color: #4caf50;
+  transition: width 0.3s ease;
+}
+
+/* Hiệu ứng khi chọn (selected) */
+.sidebar ul li.selected {
+  background-color: #4c704d;
+  color: #fff;
+  font-weight: bold;
+  transform: scale(1.1); /* Phóng to nhẹ khi được chọn */
+  border-radius: 8px; /* Bo tròn góc */
+  padding: 8px; /* Tạo khoảng cách bên trong */
+}
+
+
+.policy-image {
+  width: 27%;
+  aspect-ratio: 0.81;
+  object-fit: contain;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.policy-details {
+  max-width: 1200px;
+  color: #4c704d;
+  font-family: "Literata", serif;
+  padding: 0px 50px 0px 50px;
+  text-align: justify;
+}
+
+.policy-title {
+  color: #4caf50;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.policy-subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.policy-text {
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+@media (max-width: 991px) {
+  .policy-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  .sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .content {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .sidebar ul li:hover::after {
+    background-color: #fff;
+  }
+
+  .sidebar ul li.selected {
+    background-color: #fff;
+    color: #4c704d;
+    font-weight: bold;
+    transform: scale(1.2);
+  }
+  .policy-details {
+    padding: 0px 5px 0px 5px;
+  }
+  .policy-title {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .heading h1 {
+    font-size: 36px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+  .sidebar {
+    padding: 15px;
+  }
+  .sidebar h2 {
+    font-size: 22px;
+  }
+  .sidebar ul li {
+    font-size: 16px;
+  }
+  .content {
+    padding: 0 15px;
+  }
+  .faq-item h3 {
+    font-size: 18px;
+  }
+  .faq-item p,
+  .faq-item ul {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    /* Adjust sidebar width */
+    padding: 20px;
+  }
+
+  .sidebar ul li {
+    font-size: 20px;
+    padding: 6px 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .sidebar {
+    width: 100%; /* Full width */
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .sidebar ul li {
+    font-size: 20px;
+    padding: 4px 0;
+  }
+}
