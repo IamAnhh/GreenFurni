@@ -1,0 +1,108 @@
+footer {
+  background: linear-gradient(45deg, #4CAF50 0%, #4CB093 100%);
+  padding-top: 16px;
+}
+
+footer h4 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  margin-top: 10px;
+  font-weight: bolder;
+  /* font-family: Inter-Bold; */
+}
+
+ul,
+li {
+  list-style: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+  /* font-family: Inter-Bold; */
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.contact-icon {
+  font-size: 15px;
+}
+
+.text-center {
+  width: 100%;
+  background-color: #00a606;
+  padding: 8px 0;
+}
+
+input[type="text"] {
+  width: 60%;
+  height: 40px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer li :hover {
+  background-color: #00a606;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+
+.container {
+  padding-bottom: 30px;
+}
+
+.logo-payment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+}
+
+#logo-napas {
+  width: 75px;
+  height: 46.5px;
+}
+
+#logo-momo {
+  width: 46.5px;
+  height: 46.5px;
+}
+
+@media screen and (max-width: 767px) {
+  .nhom {
+      width: 40%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nhom {
+      width: 100%;
+  }
+  footer ul {
+      display: none;
+  }
+  footer h4 {
+      display: block;
+      margin-bottom: 10px;
+      cursor: pointer;
+  }
+  footer h4:hover {
+      background-color: #00a606;
+  }
+  footer li :hover {
+      background-color: #00a606;
+  }
+  footer h4.active+ul {
+      display: block;
+      transition: all 0.5s ease-in-out;
+  }
+}
