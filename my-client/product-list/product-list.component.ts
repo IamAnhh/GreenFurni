@@ -14,12 +14,13 @@ import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../Service/product.service';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
+
 
 @Component({
   selector: 'app-product-list',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css'],
 })
@@ -84,5 +85,11 @@ export class ProductListComponent implements OnInit {
       default:
         return true;
     }
+  }
+
+  navigateToCustomProducts(): void {
+    this.router.navigate(['/custom']).then(() => {
+      window.scrollTo(0, 0); // Cuộn lên đầu trang
+    });
   }
 }
