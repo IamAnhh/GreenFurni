@@ -1,0 +1,157 @@
+[
+  {
+      "id": 1,
+      "title":"Bàn tròn ngoài trời bằng nhựa tái chế",
+      "price": 500,
+      "decription": "Tạo không gian ăn uống ngoài trời thân mật với chiếc bàn được chế tạo từ vật liệu thân thiện với môi trường . Chiếc bàn này có sức chứa tối đa bốn người và có mặt bàn tròn với không gian để chân rộng rãi bên dưới. Chiếc bàn cổ điển chịu được mọi thời tiết này kết hợp tốt với nhiều loại ghế ăn POLYWOOD để phù hợp với diện mạo không gian ngoài trời của bạn",
+      "feature":["Thiết kế chân bàn cho phép có chỗ để chân rộng rãi","Được chế tạo từ gỗ POLYWOOD® nguyên chất, không dễ bị nứt, vỡ hoặc bong tróc","Dễ dàng vệ sinh bằng xà phòng, nước và bàn chải lông mềm","Chất chống tia UV và màu sắc liên tục trên toàn bộ vật liệu HDPE; không cần sơn hoặc chống thấm"],
+      "img": ["../../assets/Images/products/tables/Table5.png"],
+      "thumbnail": "../../assets/Images/products/tables/Table5.png",
+      "sort":"table"
+  },
+  {
+      "id": 2,
+      "title":"Bàn ăn ngoài trời cho trẻ em bằng nhựa tái chế",
+      "price": 350,
+      "decription": "Ai mà không muốn ngồi những đứa trẻ của nhà mình ngồi vào những chiếc bàn ăn nhỏ nhắn và xinh xắn như thế này? Bàn ăn này hoàn hảo cho mọi thứ, từ tiệc sinh nhật đến chỉ là ăn nhẹ với bạn bè. Bàn được làm bằng gỗ POLYWOOD nguyên khối có nhiều màu sắc hấp dẫn, không phai màu. Sản  phẩm  không bị nứt, vỡ, mẻ, bong tróc hoặc mục nát và không bao giờ cần phải sơn, nhuộm hoặc chống thấm nước. Nó cũng được thiết kế để chịu được các yếu tố của thiên nhiên cũng như chống lại vết bẩn, chất ăn mòn, hơi muối và các áp lực môi trường khác",
+      "feature":["Được làm từ gỗ POLYWOOD® chính hãng, một hỗn hợp nhựa độc quyền bao gồm bình sữa tái chế và chai đựng chất tẩy rửa","Kết cấu vững chắc, chịu được các yếu tố của thiên nhiên","Gỗ POLYWOOD® không bị nứt, vỡ, bong tróc hoặc mục nát và có khả năng chống lại các chất ăn mòn như dầu, hơi muối và các ứng suất môi trường khác","Dễ dàng vệ sinh bằng xà phòng và nước"],
+      "img": ["../../assets/Images/products/tables/Table2.png"],
+      "thumbnail": "../../assets/Images/products/tables/Table2.png",
+      "sort":"table"
+  },
+  {
+      "id": 3,
+      "title":"Bàn ăn từ nhựa poly classic tái chế",
+      "price": 450,
+      "decription": "Bàn vuông mang lại vẻ đẹp và sự tiện dụng cho bất kỳ không gian nào. Có thể thoải mái ngồi với ngồi  bốn người và chức năng gấp gọn sau khi sử dụng",
+      "feature":["Được làm bằng nhựa tái chế thân thiện với môi trường","Chống chịu mọi thời tiết, chống gỉ sét và vết bẩn do thời tiết ẩm ướt","Dễ dàng vệ sinh bằng xà phòng, nước và bàn chải lông mềm","Chất chống tia UV và màu sắc liên tục trên toàn bộ vật liệu HDPE; không cần sơn hoặc chống thấm"],
+      "img": ["../../assets/Images/products/tables/Table1.png"],
+      "thumbnail":"../../assets/Images/products/tables/Table1.png",
+      "sort":"table"
+  },
+  {
+      "id": 4,
+      "title":"Bàn giả đá từ nhựa tái chế",
+      "price": 400,
+      "decription": "Bộ bàn ghế từ nhựa tái chế đá là sản phẩm độc giả được thiết kế để có tính năng và độ bền cao. Với tính chất chống mài mòn, chịu được thời tiết khắc nghiệt và khả năng chống trầy xước, bộ bàn ghế này thực sự là một lựa chọn hoàn hảo cho những người đang tìm kiếm một bộ bàn ghế ngoài trời chất lượng cao",
+      "feature":["Bên cạnh đó, bộ bàn ghế từ nhựa tái sinh chế giả đá cũng có tính thẩm mỹ cao, với màu sắc sắc nét và họa tiết được phân phối tinh tế để tạo nên một phong cách trọng đại và sang trọng. Với khả năng chống nắng và chống tia UV, bộ bàn ghế này không chỉ đẹp mà còn rất bền với thời gian"],
+      "img": ["../../assets/Images/products/tables/Table3.png"],
+      "thumbnail": "../../assets/Images/products/tables/Table3.png" ,
+      "sort":"table"
+  },
+  {
+      "id": 5,
+      "title":"Bàn nhựa tái chế",
+      "price": 250,
+      "decription": "Bàn nhựa tái chế là một sản phẩm đóng góp vào việc bảo vệ môi trường và giảm thiểu lượng rác thải nhựa phát sinh. Bàn được sản xuất từ nhựa tái chế, tức là từ những tài nguyên nhựa đã qua sử dụng và được thu gom lại để tiếp tục tái chế và sử dụng. Việc sử dụng bàn nhựa tái chế có nhiều ưu điểm như giảm thiểu lượng rác thải, tiết kiệm nguồn tài nguyên, giảm thiểu sự ô nhiễm môi trường.",
+      "feature":["Ngoài những ưu điểm kể trên, bàn nhựa tái chế còn mang tính chất nhân văn cao, bởi vì nó đóng góp vào việc giảm thiểu áp lực đối với môi trường và tài nguyên thiên nhiên. Việc sử dụng bàn nhựa tái chế còn là một cách để thể hiện sự tôn trọng và chăm sóc cho môi trường sống chung của chúng ta và góp phần vào việc bảo vệ sức khỏe và cuộc sống của con người"],
+      "img": ["../../assets/Images/products/tables/Table4.png"],
+      "thumbnail": "../../assets/Images/products/tables/Table4.png",
+      "sort":"table"
+  },
+  {
+      "id": 6,
+      "title":"Bàn dã ngoại ngoài trời hình chữ nhật bằng nhựa tái chế Berlin Gardens",
+      "price": 7500,
+      "decription": "Bàn dã ngoại hình chữ nhật Berlin Gardens Collection có độ bền cao - chắc chắn và sẽ cung cấp chỗ ngồi hoàn hảo trọn đời cho mọi buổi dã ngoại - họp mặt gia đình và tiệc sinh nhật của bạn! Chiếc bàn dã ngoại ngoài trời này minh họa cho chất lượng thủ công mà bạn sẽ trân trọng trong thế hệ lắp ráp nhanh chóng này. Chiếc bàn dã ngoại ngoài trời này được làm từ 100% gỗ poly tái chế giúp giảm thiểu lượng khí thải carbon và cung cấp cho bạn dịch vụ chăm sóc miễn phí trọn đời!",
+      "feature":[" Hầu như không cần bảo trì!","Chống chịu thời tiết - sẽ không thúc đẩy sự phát triển của vi khuẩn hoặc nấm mốc"," Phần cứng bằng thép không gỉ","Lý tưởng cho các ứng dụng thương mại và dân dụng","Sẽ không nứt - tách - mục nát hoặc vỡ vụn","Được ổn định bằng tia UV để chống phai màu","Vật liệu gỗ poly tái chế"],
+      "img": ["../../assets/Images/products/set/Set1.png"],
+      "thumbnail": "../../assets/Images/products/set/Set1.png",
+      "sort":"set"
+  },
+  {
+      "id": 7,
+      "title":"Bộ bàn ghế giả từ nhựa tái chế",
+      "price": 2500,
+      "decription": ["Bộ bàn ghế từ nhựa tái chế đá là sản phẩm độc giả được thiết kế để có tính năng và độ bền cao. Với tính chất chống mài mòn, chịu được thời tiết khắc nghiệt và khả năng chống trầy xước, bộ bàn ghế này thực sự là một lựa chọn hoàn hảo cho những người đang tìm kiếm một bộ bàn ghế ngoài trời chất lượng cao",
+  "Bên cạnh đó, bộ bàn ghế từ nhựa tái sinh chế giả đá cũng có tính thẩm mỹ cao, với màu sắc sắc nét và họa tiết được phân phối tinh tế để tạo nên một phong cách trọng đại và sang trọng. Với khả năng chống nắng và chống tia UV, bộ bàn ghế này không chỉ đẹp mà còn rất bền với thời gian"],
+      "feature":[],
+      "img": ["../../assets/Images/products/set/Set2.png"],
+      "thumbnail": "../../assets/Images/products/set/Set2.png",
+      "sort":"set"
+  },
+  {
+      "id": 8,
+      "title":"Bộ bàn ghế lục giác từ nhựa tái chế",
+      "price": 6500,
+      "decription": ["Sản phẩm được làm từ nhựa tái chế kết hợp với các thanh Resinwood có  kích thước khác nhau. Có thể đặt màu sắc theo yêu cầu cho đơn hàng số lượng lớn. Phần cứng có độ bền cao, được phủ với lớp sơn kháng nhiệt"],
+      "feature":["Không cần bảo trì","Chất lượng thương mại","Nhiều tùy chọn màu sắc","Không bị mục, không bị vỡ và không phai màu","Được làm từ nhựa tái chế cao cấp của Jayhawk, với ba loại nguyên liệu pha trộn."],
+      "img": ["../../assets/Images/products/set/Set3.png"],
+      "thumbnail": "../../assets/Images/products/set/Set3.png",
+      "sort":"set"
+  },
+  {
+      "id": 9,
+      "title":"Bộ bàn ghế quầy bar từ nhựa tái chế",
+      "price": 4000,
+      "decription": ["Bộ quầy bar 5 món Palm Coast có bốn chỗ ngồi và có ghế quầy bar Palm Coast thẳng đứng với thiết kế mặt sau Adirondack của Palm Coast. Với bàn quầy bar tròn cổ điển, bộ quầy bar này hoàn hảo để thư giãn với đồ uống trên hiên nhà."],
+      "feature":["Ghế có phần ngồi và lưng ghế được bo tròn tạo sự thoải mái","Được chế tạo để chịu được nhiều loại khí hậu khác nhau bao gồm nắng nóng và mùa đông","Dễ dàng vệ sinh bằng xà phòng, nước và bàn chải lông mềm","Chất chống tia UV và màu sắc liên tục trên toàn bộ vật liệu HDPE; không cần sơn hoặc chống thấm"],
+      "img": ["../../assets/Images/products/set/Set4.png"],
+      "thumbnail": "../../assets/Images/products/set/Set4.png",
+      "sort":"set"
+  },
+  {
+      "id": 10,
+      "title":"Bộ bàn ghế từ nhựa tái chế",
+      "price": 5000,
+      "decription": ["Bộ bàn ghế từ nhựa tái chế đá là sản phẩm độc giả được thiết kế để có tính năng và độ bền cao. Với tính chất chống mài mòn, chịu được thời tiết khắc nghiệt và khả năng chống trầy xước, bộ bàn ghế này thực sự là một lựa chọn hoàn hảo cho những người đang tìm kiếm một bộ bàn ghế ngoài trời chất lượng cao.",
+  "Bên cạnh đó, bộ bàn ghế từ nhựa tái sinh chế giả đá cũng có tính thẩm mỹ cao, với màu sắc sắc nét và họa tiết được phân phối tinh tế để tạo nên một phong cách trọng đại và sang trọng. Với khả năng chống nắng và chống tia UV, bộ bàn ghế này không chỉ đẹp mà còn rất bền với thời gian"],
+      "feature":[],
+      "img": ["../../assets/Images/products/set/Set5.png"],
+      "thumbnail":"../../assets/Images/products/set/Set5.png",
+      "sort":"set"
+  },
+  {
+      "id": 11,
+      "title":"Ghế ăn ngoài trời Cafe Fusion bằng nhựa tái chế Seaside Casual Coastline",
+      "price": 350,
+      "decription": ["Lấy cảm hứng từ chỗ ngồi quán cà phê mang tính biểu tượng được tìm thấy trên khắp Châu Âu, bộ sưu tập ăn uống Cafe Fusion lý tưởng cho những không gian nhỏ hơn. Những đường nét độc đáo mang đến cho nó một hình dáng đặc biệt tạo nên sự cân bằng giữa chức năng và phong cách phù hợp với bất kỳ bối cảnh ngoài trời nào. Thiết kế đơn giản và khéo léo của ghế ăn và bàn mang đến sự tinh tế hiện đại với mức giá hợp lý. Tính linh hoạt được mở rộng với mặt bàn hình vuông hoặc hình tròn. Thêm cá tính độc đáo bằng cách kết hợp màu sắc, và Bộ sưu tập Cafe Fusion tự nó đã là một đẳng cấp."],
+      "feature":[" Được làm bằng nhựa tái chế thân thiện với môi trường đẹp"," Chống chịu mọi thời tiết, chống gỉ sét và vết bẩn do thời tiết ẩm ướt"],
+      "img": ["../../assets/Images/products/chairs/Chair1.png"],
+      "thumbnail":"../../assets/Images/products/chairs/Chair1.png",
+      "sort":"chair"
+  },
+  {
+      "id": 12,
+      "title":"Ghế bập bênh từ nhựa tái chế",
+      "price": 300,
+      "decription": ["Chiếc ghế bập bênh vừa thoải mái vừa tiện dụng. Ghế được làm bằng gỗ tái chế POLYWOOD chắc chắn, chống phai màu, không bị nứt, vỡ, bong tróc hoặc mục nát và không bao giờ cần phải sơn, nhuộm hoặc chống thấm nước. Sản phẩm cũng dễ dàng vệ sinh bằng xà phòng và nước vì nó chống lại vết bẩn từ rượu vang và gia vị, chất ăn mòn, hơi muối và các tác động khác của môi trường."],
+      "feature":["Được làm từ gỗ POLYWOOD® chính hãng, một hỗn hợp nhựa độc quyền bao gồm bình sữa tái chế và chai đựng chất tẩy rửa","Gỗ POLYWOOD® không cần sơn, nhuộm, chống thấm hoặc bảo dưỡng tương tự","Kết cấu vững chắc, chịu được các yếu tố của thiên nhiên"," Kết cấu chắc chắn chịu được các yếu tố tự nhiên","Được thiết kế theo đường viền để thoải mái hơn","Dễ dàng vệ sinh bằng xà phòng và nước"],
+      "img": ["../../assets/Images/products/chairs/Chair2.png"],
+      "thumbnail":"../../assets/Images/products/chairs/Chair2.png",
+      "sort":"chair"
+  },
+  {
+      "id": 13,
+      "title":"Ghế cà phê bằng nhựa tái chế",
+      "price": 200,
+      "decription": ["Ghế nhựa tái chế là một sản phẩm bền vững và thân thiện với môi trường được làm từ các vật liệu nhựa tái chế. Thay vì sử dụng nhựa mới, các nhà sản xuất ghế nhựa tái chế sử dụng nhựa đã được tái chế từ các sản phẩm nhựa không còn sử dụng được nữa",
+      "Ghế nhựa tái chế có thể có nhiều kiểu dáng và màu sắc khác nhau, phù hợp với nhiều không gian và phong cách trang trí khác nhau. Nó cũng rất dễ dàng để vệ sinh và bảo trì, chỉ cần lau chùi bề mặt bằng một khăn ẩm là bạn đã có thể giữ cho ghế sạch sẽ và bền đẹp trong thời gian dài"],
+      "feature":[],
+      "img": ["../../assets/Images/products/chairs/Chair3.png"],
+      "thumbnail":"../../assets/Images/products/chairs/Chair3.png",
+      "sort":"chair"
+  },
+  {
+      "id": 14,
+      "title":"Ghế nhựa tái chế",
+      "price": 150,
+      "decription": ["Ghế nhựa tái chế là một sản phẩm được làm từ nhựa tái chế, đóng góp vào việc bảo vệ môi trường và giảm thiểu lượng rác thải nhựa phát sinh. Việc sử dụng ghế nhựa tái chế giúp giảm thiểu tác động đến môi trường và giúp tài nguyên thiên nhiên được bảo vệ hơn.",
+                      "Ghế nhựa tái chế không chỉ có giá thành rẻ hơn so với các loại ghế làm từ nhựa mới mà còn có khả năng sử dụng trong thời gian dài và không bị ảnh hưởng bởi thời tiết. Việc sử dụng ghế nhựa tái chế là một cách để thể hiện sự chăm sóc và tôn trọng môi trường sống chung của chúng ta, giúp bảo vệ sức khỏe và cuộc sống của con người",
+                      "Đây là sản phẩm mang tính chất nhân văn cao, vì nó giúp giảm thiểu áp lực đối với môi trường và tài nguyên thiên nhiên. Ngoài ra, sản xuất ghế nhựa tái chế còn tạo ra cơ hội việc làm cho những người trong cộng đồng, giúp nâng cao đời sống và tạo ra những giá trị mới cho xã hội"],
+      "feature":[],
+      "img": ["../../assets/Images/products/chairs/Chair4.png"],
+      "thumbnail":"../../assets/Images/products/chairs/Chair4.png",
+      "sort":"chair"
+  },
+  {
+      "id": 15,
+      "title":"Ghế tựa từ nhựa tái chế",
+      "price": 250,
+      "decription": ["Hãy  trải nghiệm ăn uống ngoài trời đầy mê hoặc với vẻ đẹp vượt thời gian và sự thoải mái và thư giãn. Phần ghế có đường viền và phần lưng cong sẽ giúp cơ thể bạn thoải mái trong khi nhiều lựa chọn màu sắc hấp dẫn, không phai sẽ thu hút phong cách và thiết kế của bạn.","Chiếc ghế thân thiện với môi trường này rất dễ vệ sinh bằng xà phòng và nước vì nó chống lại vết bẩn, chất ăn mòn, nước và các tác động khác của môi trường."],
+      "feature":["Được làm từ gỗ POLYWOOD® chính hãng, một hỗn hợp nhựa độc quyền bao gồm bình sữa tái chế và chai đựng chất tẩy rửa"," Kết cấu vững chắc, chịu được các yếu tố của thiên nhiên","Phần cứng chất lượng cấp biển"," Dễ dàng vệ sinh bằng xà phòng và nước"],
+      "img": ["../../assets/Images/products/chairs/Chair5.png"],
+      "thumbnail":"../../assets/Images/products/chairs/Chair5.png",
+      "sort":"chair"
+  }
+]
