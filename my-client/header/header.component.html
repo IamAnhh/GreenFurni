@@ -1,0 +1,81 @@
+
+
+<header class="main-header">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+  />
+  <div class="header-content">
+    <div class="social-follow">
+      <span class="follow-tex center">Theo dõi qua:</span>
+      <a class="bi bi-facebook social-icon" href="https://www.facebook.com/profile.php?id=61568944685440" target="_blank"></a>
+      <a class="bi bi-tiktok social-icon"  href="https://www.tiktok.com/@ni.tht.xanh?_t=8rWqJ8Q31Ry&_r=1" target="_blank"></a>
+      <a class="bi bi-instagram social-icon" href="https://www.instagram.com/greenfurnii_/profilecard/?igsh=bG82ejk2MmpvemE2" target="_blank"></a>
+      <a class="bi bi-envelope social-icon"></a>
+      <a class="bi bi-telephone social-icon"></a>
+    </div>
+    <nav class="main-nav">
+      <img
+        src="../../assets/Images/logo/logo-black.png"
+        alt="Company logo"
+        class="company-logo" routerLink="/homepage"
+      />
+      <!-- Biểu tượng "bi-list" để mở menu -->
+
+      <ul class="nav-links">
+        <li><a routerLink="/homepage" routerLinkActive="active" class="nav-link">Trang chủ</a></li>
+        <li><a routerLink="/products" routerLinkActive="active" class="nav-link">Sản phẩm</a></li>
+        <li><a routerLink="/blog" routerLinkActive="active" class="nav-link">Blog</a></li>
+        <li><a routerLink="/faq" routerLinkActive="active" class="nav-link">FAQ</a></li>
+        <li><a routerLink="/aboutus"routerLinkActive="active" class="nav-link">Câu chuyện</a></li>
+        <li><a routerLink="/policy" routerLinkActive="active" class="nav-link">Chính sách</a></li>
+      </ul>
+
+      <div class="user-actions">
+        <i class="bi bi-search action-icon"></i>
+        <i class="bi bi-cart action-icon"></i>
+        <i class="bi bi-person-circle action-icon"  routerLink="/profile" routerLinkActive="active"></i>
+      </div>
+
+    </nav>
+
+    <nav class="navigation-container">
+        <div class="logo-section2">
+          <img loading="lazy" src="../../assets/Images/logo/logomobile.png" alt="Company logo" class="company-logo2" routerLink="/homepage"/>
+        </div>
+        <div class="search-container">
+          <input type="text" class="form-control search-input" >
+          <img  class="search-icon" src="../../assets/Images/logo/looking.png"  >
+        </div>
+        <nav class="drop-container">
+          <div class="dropdown-container">
+            <ul class="dropdown-menu" [class.show]="menuOpen">
+              <li><a href="#" class="dropdown-item" routerLink="/homepage"  routerLinkActive="active" >Trang chủ</a></li>
+              <li><a href="#" class="dropdown-item" routerLink="/products"  routerLinkActive="active">Sản phẩm</a></li>
+              <li><a href="#" class="dropdown-item" routerLink="/blog"   routerLinkActive="active">Blog</a></li>
+              <li><a href="#" class="dropdown-item" routerLink="/faq"  routerLinkActive="active">FAQ</a></li>
+              <li><a href="#" class="dropdown-item" routerLink="/aboutus"  routerLinkActive="active">Câu chuyện</a></li>
+              <li><a href="#" class="dropdown-item" routerLink="/policy"  routerLinkActive="active">Chính sách</a></li>
+            </ul>
+          </div>
+        </nav>
+
+
+        <div class=" action-section2 ">
+          <div class="action-button2">
+            <img loading="lazy" src="../../assets/Images/logo/cart-frame.png" alt="Menu icon" class="menu-icon2" />
+          </div>
+          <div class="action-button2">
+            <img loading="lazy" src="../../assets/Images/logo/user.png" alt="Search" class="action-icon2"  routerLink="/profile" routerLinkActive="active"/>
+          </div>
+          <div class="action-button2 menu-toggle" (click)="toggleMenu($event)">
+            <img
+              loading="lazy"
+              src="../../assets/Images/logo/toggle.png"
+              class="action-icon2"
+            />
+          </div>
+        </div>
+    </nav>
+  </div>
+</header>
