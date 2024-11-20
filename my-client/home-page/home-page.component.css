@@ -1,0 +1,575 @@
+.image-container {
+  margin: 0;
+  padding: 0;
+}
+
+.responsive-image {
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
+.container {
+  padding: 20px;
+}
+.main-content {
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.welcome-title {
+  color: #4c704d;
+  text-align: center;
+  align-self: center;
+  font-size: 28pt;
+  font-weight: 700;
+  font-family: Literata;
+}
+.welcome-description {
+  color: #4c704d;
+  text-align: center;
+  align-self: center;
+  margin-top: 12px;
+  font-size: 24px;
+  font-family: Literata;
+  max-width: 100%;
+}
+
+.featured-products-title {
+  color: #4c704d;
+  align-self: start;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Literata;
+}
+
+.scrollable {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.welcome-description,
+.faq-divider,
+.news-grid {
+  max-width: 100%;
+}
+.product-grid {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.product-row {
+  gap: 20px;
+  display: flex;
+}
+
+.product-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 100%;
+
+}
+.product-card {
+  border-radius: 15px;
+  background-color: #edf8eb;
+  box-shadow: 0 4px 4px #00000040;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #4c704d;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.4px;
+  width: 100%;
+  border: 1px solid #4caf50;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  scale: 1.025;
+  transition: all 0.2s linear;
+}
+
+
+
+.product-image {
+  aspect-ratio: 1;
+  object-fit:contain; /* Ensures images are cropped and uniform */
+  width:300px;
+  height: 400px; /* Adjust height for uniform sizing */
+  border-radius: 15px 15px 0 0;
+}
+
+.product-title {
+  margin-top: 7px;
+  font-family: Literata;
+  white-space: normal;
+  font-weight: bold;
+  font-size: large;
+
+}
+.product-price {
+  font: 17px/2, sans-serif;
+  font-family: Literata;
+   margin-bottom: 0;
+}
+.brand-story-title {
+  color: #4c704d;
+  align-self: start;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Literata;
+}
+.brand-story-row {
+  gap: 20px;
+  display: flex;
+}
+
+.brand-story-image-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 0;
+}
+
+.brand-story-text-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 67%;
+  margin-left: 10px;
+}
+
+.brand-story-text {
+  color: #4c704d;
+  text-align: center;
+  align-self: center;
+  margin-top: 70px;
+  font-size: 24px;
+  font-family: Literata;
+  width: 750px;
+}
+
+.latest-news-title {
+  color: #4c704d;
+  align-self: start;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Literata;
+}
+
+.news-grid {
+  margin-top: 15px;
+}
+
+.news-row {
+  gap: 35px;
+  display: flex;
+}
+
+.news-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 200pt;
+  margin-left: 0;
+}
+
+.news-card {
+  border-radius: 15px;
+  background-color: #edf8eb;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-grow: 1;
+  padding-bottom: 40px;
+  flex-direction: column;
+  color: #4c704d;
+  text-align: center;
+  letter-spacing: -0.4px;
+  width: 100%;
+  font: 400 18px/2 Literata;
+  border: 1px solid #4caf50;
+  cursor:pointer;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+  transform: scale(1.05); /* Tăng kích thước phần tử lên 1.03 lần */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Tạo hiệu ứng đổ bóng để nổi lên */
+}
+.news-image {
+  aspect-ratio: 1.36;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  margin-top: 10pt;
+}
+
+.news-divider {
+  background-color: #4c704d;
+  display: flex;
+  margin-top: 8px;
+  width: 80px;
+  height: 11px;
+}
+
+.news-title {
+  align-self: center;
+  margin-top: 13px;
+  font-size: 15pt;
+  font-weight: 700;
+  font-family: Literata;
+}
+
+.news-grid {
+  margin: 0 75px;
+}
+
+.news-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+.news-column1 {
+  width: 33%;
+}
+
+.process-title {
+  color: #4c704d;
+  align-self: start;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Literata;
+}
+.recycling-process {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+.process-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4c704d;
+  font-family: "Literata";
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.process-image {
+  width: 100%;
+  max-width: 400px;
+}
+
+.process-description {
+  line-height: 1.5;
+  color: #4c704d;
+  font-size: 25px;
+  text-align: center;
+}
+.faq-section {
+  background-color: #fff;
+  display: flex;
+  margin-top: 53px;
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+  color: #4c704d;
+  padding: 11px 80px 64px 1px;
+  font: 500 20px Literata;
+}
+.faq-section {
+  margin-top: 40px;
+}
+.faq-title {
+  color: #4c704d;
+  align-self: start;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Literata;
+}
+
+.faq-divider {
+  width: 922px;
+
+  height: 1px;
+  margin: 10px 0 0 12px;
+
+}
+
+.faq-divider {
+
+  background-color: #e0e0e0;
+  margin: 15px 0;
+  }
+.faq-divider {
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 15px 0;
+  border: 1px solid #4c704d;
+  height: 1px;
+  max-width: 100%;
+}
+
+.faq-item {
+  display: flex;
+  width: 900px;
+  max-width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 24px 0 0 12px;
+  font-family: Literata;
+  margin-bottom: 15px;
+
+}
+.faq-question {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+.faq-icon{
+    margin-left: 50px;
+}
+.faq-question:hover .faq-icon {
+  cursor: pointer;
+}
+
+.faq-icon {
+  aspect-ratio: 1.33;
+  object-fit: contain;
+  object-position: center;
+  width: 32px;
+
+
+
+}
+
+.faq-icon {
+  transition: transform 0.3s ease;
+}
+
+.faq-icon.open {
+  transform: rotate(90deg);
+}
+
+.faq-icon.active {
+  transform: rotate(90deg);
+}
+
+.faq-answer {
+  color: #4c704d;
+  width: 100%;
+  margin-top: 7px;
+  white-space: normal;
+}
+
+@media (max-width: 991px) {
+  .welcome-title,
+  .welcome-description,
+  .responsive-image {
+    display: none;
+  }
+  .featured-products-title {
+    margin-top: 28px;
+    color: #4caf50;
+  }
+  .product-grid {
+    max-width: 100%;
+  }
+
+  .product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Căn giữa các sản phẩm */
+  }
+  .product-column {
+    width: 35%; /* Mỗi cột chiếm 50% để hiển thị 2 sản phẩm mỗi hàng */
+    margin: 15px;
+
+  }
+  .product-card {
+    margin-top: 5px;
+  }
+
+
+  .product-image {
+    width: 250px; /* Reduce width */
+    height: 350px; /* Reduce height proportionally */
+  }
+  .product-title {
+    font-size: 20px;
+  }
+  .brand-story-title {
+    margin: 40px 0 0 8px;
+    color: #4caf50;
+    font-size: 25spx;
+    text-align: center;
+  }
+  .brand-story-content {
+    max-width: 100%;
+    margin-right: 4px;
+  }
+  .brand-story-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+  .brand-story-image-column {
+    width: 65%;
+    border-radius: 15px;
+    align-self: center;
+  }
+  .brand-story-image {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .brand-story-text-column {
+    width: 100%;
+  }
+  .brand-story-text {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  .latest-news-title {
+    margin: 40px 0 0 8px;
+    color: #4caf50;
+    font-size: 25spx;
+    text-align: center;
+  }
+  .news-grid {
+    max-width: 100%;
+  }
+  .news-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+  .news-column {
+    width: 100%;
+  }
+  .news-card {
+    margin-top: 30px;
+  }
+  .process-title {
+    margin: 40px 0 0 8px;
+    color: #4caf50;
+    font-size: 25spx;
+    text-align: center;
+  }
+  .recycling-process {
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .process-description {
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  .faq-section {
+    max-width: 100%;
+    padding-right: 20px;
+    margin: 40px 0 0 8px;
+  }
+  .faq-title {
+    color: #4caf50;
+    font-size: 20px;
+
+  }
+  .faq-item {
+    max-width: 100%;
+  }
+}
+
+/*
+@media (max-width: 991px) { .hero-image { max-width: 100%; } }
+
+@media (max-width: 991px) { .main-content { max-width: 100%; margin-top: 40px; padding: 0 0px; } }
+
+@media (max-width: 991px) { .welcome-title { max-width: 100%; } }
+.welcome-description {
+  color: #4c704d;
+  text-align: center;
+  align-self: center;
+  margin-top: 12px;
+  font-size: 24px;
+  font-family: Literata;
+  width: 965px
+}
+
+@media (max-width: 991px) { .welcome-description { max-width: 100%; } }
+
+
+@media (max-width: 991px) { .recycling-step-text { margin-right: 3px; } }*/
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+@media (max-width: 576px) {
+  .product-column {
+    width: 100%; /* Mỗi cột chiếm 100% để hiển thị 1 sản phẩm mỗi hàng khi màn hình rất nhỏ */
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  .product-item-container {
+    width: 100%; /* 1 item per row on very small screens */
+  }
+}
+
+
+
+
+
+
+/*
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  white-space: normal;
+  text-align: center;
+}
+
+.product-price {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: bold;
+} */
+
+
+
+@media (max-width: 991px) {
+
+}
+
+
+
