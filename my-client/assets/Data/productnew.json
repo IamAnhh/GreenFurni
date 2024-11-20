@@ -1,0 +1,510 @@
+[{
+  "_id": {
+    "$oid": "6735ae8dffccc59f6e3233ef"
+  },
+  "category1": "Ghế",
+  "category2": "Ngoài trời",
+  "name": "Ghế cà phê bằng nhựa tái chế",
+  "cost_of_capital": 150000,
+  "price": 200000,
+  "oldprice": 250000,
+  "description": "Ghế nhựa tái chế là một sản phẩm bền vững và thân thiện với môi trường được làm từ các vật liệu nhựa tái chế. Thay vì sử dụng nhựa mới, các nhà sản xuất ghế nhựa tái chế sử dụng nhựa đã được tái chế từ các sản phẩm nhựa không còn sử dụng được nữa. Ghế nhựa tái chế có thể có nhiều kiểu dáng và màu sắc khác nhau, phù hợp với nhiều không gian và phong cách trang trí khác nhau. Nó cũng rất dễ dàng để vệ sinh và bảo trì, chỉ cần lau chùi bề mặt bằng một khăn ẩm là bạn đã có thể giữ cho ghế sạch sẽ và bền đẹp trong thời gian dài.",
+  "rating": 4.2,
+  "img": [
+    {
+      "img1": "https://example.com/images/ghecaphe1.jpg",
+      "img2": "https://example.com/images/ghecaphe2.jpg",
+      "img3": "https://example.com/images/ghecaphe3.jpg",
+      "img4": "https://example.com/images/ghecaphe4.jpg",
+      "_id": {
+        "$oid": "6735ae8dffccc59f6e3233f0"
+      }
+    }
+  ],
+  "quantity": 40,
+  "sold_quantity": 15,
+  "ask1": "Ghế được làm từ chất liệu gì?",
+  "answer1": "Ghế được làm từ nhựa tái chế, thân thiện với môi trường và bền vững.",
+  "ask2": "Ghế có dễ dàng vệ sinh không?",
+  "answer2": "Có, chỉ cần lau chùi bề mặt bằng khăn ẩm để giữ cho ghế sạch sẽ.",
+  "provider": "EcoFurniture",
+  "origin": "Việt Nam",
+  "stock_status": "Còn hàng",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735af1affccc59f6e323401"
+  },
+  "category1": "Ghế",
+  "category2": "Ngoài trời",
+  "name": "Ghế ăn ngoài trời Cafe Fusion bằng nhựa tái chế Seaside Casual Coastline",
+  "cost_of_capital": 300000,
+  "price": 350000,
+  "oldprice": 400000,
+  "description": "Lấy cảm hứng từ chỗ ngồi quán cà phê mang tính biểu tượng được tìm thấy trên khắp Châu Âu, bộ sưu tập ăn uống Cafe Fusion lý tưởng cho những không gian nhỏ hơn. Những đường nét độc đáo mang đến cho nó một hình dáng đặc biệt tạo nên sự cân bằng giữa chức năng và phong cách phù hợp với bất kỳ bối cảnh ngoài trời nào. Thiết kế đơn giản và khéo léo của ghế ăn và bàn mang đến sự tinh tế hiện đại với mức giá hợp lý. Tính linh hoạt được mở rộng với mặt bàn hình vuông hoặc hình tròn. Thêm cá tính độc đáo bằng cách kết hợp màu sắc, và Bộ sưu tập Cafe Fusion tự nó đã là một đẳng cấp.",
+  "rating": 4.5,
+  "img": [
+    {
+      "img1": "https://example.com/images/gheannhataiche1.jpg",
+      "img2": "https://example.com/images/gheannhataiche2.jpg",
+      "img3": "https://example.com/images/gheannhataiche3.jpg",
+      "img4": "https://example.com/images/gheannhataiche4.jpg",
+      "_id": {
+        "$oid": "6735af1affccc59f6e323402"
+      }
+    }
+  ],
+  "quantity": 50,
+  "sold_quantity": 20,
+  "ask1": "Ghế được làm từ chất liệu gì?",
+  "answer1": "Ghế được làm bằng nhựa tái chế thân thiện với môi trường.",
+  "ask2": "Ghế có thể chịu được các điều kiện thời tiết khắc nghiệt không?",
+  "answer2": "Có, ghế chống chịu mọi thời tiết, chống gỉ sét và vết bẩn do thời tiết ẩm ướt.",
+  "provider": "Seaside Casual",
+  "origin": "Việt Nam",
+  "stock_status": "Còn hàng",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735af48ffccc59f6e323407"
+  },
+  "category1": "Ghế",
+  "category2": "Ngoài trời",
+  "name": "Ghế bập bênh từ nhựa tái chế",
+  "cost_of_capital": 250000,
+  "price": 300000,
+  "oldprice": 350000,
+  "description": "Chiếc ghế bập bênh vừa thoải mái vừa tiện dụng. Ghế được làm bằng gỗ tái chế POLYWOOD chắc chắn, chống phai màu, không bị nứt, vỡ, bong tróc hoặc mục nát và không bao giờ cần phải sơn, nhuộm hoặc chống thấm nước. Sản phẩm cũng dễ dàng vệ sinh bằng xà phòng và nước vì nó chống lại vết bẩn từ rượu vang và gia vị, chất ăn mòn, hơi muối và các tác động khác của môi trường.",
+  "rating": 4.5,
+  "img": [
+    {
+      "img1": "https://example.com/images/ghebapbenh1.jpg",
+      "img2": "https://example.com/images/ghebapbenh2.jpg",
+      "img3": "https://example.com/images/ghebapbenh3.jpg",
+      "img4": "https://example.com/images/ghebapbenh4.jpg",
+      "_id": {
+        "$oid": "6735af48ffccc59f6e323408"
+      }
+    }
+  ],
+  "quantity": 30,
+  "sold_quantity": 10,
+  "ask1": "Ghế được làm từ chất liệu gì?",
+  "answer1": "Ghế được làm từ gỗ tái chế POLYWOOD, một loại nhựa bền chắc, chống phai màu.",
+  "ask2": "Ghế có cần bảo dưỡng thường xuyên không?",
+  "answer2": "Không, ghế không cần bảo dưỡng, dễ dàng vệ sinh bằng xà phòng và nước.",
+  "provider": "EcoRocking",
+  "origin": "Việt Nam",
+  "stock_status": "Còn hàng",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735b04effccc59f6e32340e"
+  },
+  "category1": "Ghế",
+  "category2": "Bền vững",
+  "name": "Ghế nhựa tái chế",
+  "cost_of_capital": 100000,
+  "price": 150000,
+  "oldprice": 180000,
+  "description": "Ghế nhựa tái chế là một sản phẩm được làm từ nhựa tái chế, đóng góp vào việc bảo vệ môi trường và giảm thiểu lượng rác thải nhựa phát sinh. Việc sử dụng ghế nhựa tái chế giúp giảm thiểu tác động đến môi trường và giúp tài nguyên thiên nhiên được bảo vệ hơn. Ghế nhựa tái chế không chỉ có giá thành rẻ hơn so với các loại ghế làm từ nhựa mới mà còn có khả năng sử dụng trong thời gian dài và không bị ảnh hưởng bởi thời tiết.",
+  "rating": 4.3,
+  "img": [
+    {
+      "img1": "https://example.com/images/ghenhuataiche1.jpg",
+      "img2": "https://example.com/images/ghenhuataiche2.jpg",
+      "img3": "https://example.com/images/ghenhuataiche3.jpg",
+      "img4": "https://example.com/images/ghenhuataiche4.jpg",
+      "_id": {
+        "$oid": "6735b04effccc59f6e32340f"
+      }
+    }
+  ],
+  "quantity": 50,
+  "sold_quantity": 20,
+  "ask1": "Ghế có bền không?",
+  "answer1": "Ghế nhựa tái chế có độ bền cao, có thể sử dụng lâu dài và không bị ảnh hưởng bởi thời tiết.",
+  "ask2": "Ghế có thân thiện với môi trường không?",
+  "answer2": "Có, ghế được làm từ nhựa tái chế, giúp giảm thiểu rác thải và bảo vệ môi trường.",
+  "provider": "EcoChairs",
+  "origin": "Việt Nam",
+  "stock_status": "Còn hàng",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735b0a1ffccc59f6e323416"
+  },
+  "category1": "Ghế",
+  "category2": "Ngoài trời",
+  "name": "Ghế tựa từ nhựa tái chế",
+  "cost_of_capital": 180000,
+  "price": 250000,
+  "oldprice": 300000,
+  "description": "Hãy trải nghiệm ăn uống ngoài trời đầy mê hoặc với vẻ đẹp vượt thời gian và sự thoải mái và thư giãn. Phần ghế có đường viền và phần lưng cong sẽ giúp cơ thể bạn thoải mái trong khi nhiều lựa chọn màu sắc hấp dẫn, không phai sẽ thu hút phong cách và thiết kế của bạn. Chiếc ghế thân thiện với môi trường này rất dễ vệ sinh bằng xà phòng và nước vì nó chống lại vết bẩn, chất ăn mòn, nước và các tác động khác của môi trường.",
+  "rating": 4.5,
+  "img": [
+    {
+      "img1": "https://example.com/images/ghe_tua_taiche1.jpg",
+      "img2": "https://example.com/images/ghe_tua_taiche2.jpg",
+      "img3": "https://example.com/images/ghe_tua_taiche3.jpg",
+      "img4": "https://example.com/images/ghe_tua_taiche4.jpg",
+      "_id": {
+        "$oid": "6735b0a1ffccc59f6e323417"
+      }
+    }
+  ],
+  "quantity": 30,
+  "sold_quantity": 10,
+  "ask1": "Ghế có dễ vệ sinh không?",
+  "answer1": "Có, ghế rất dễ vệ sinh bằng xà phòng và nước.",
+  "ask2": "Ghế có bền không?",
+  "answer2": "Ghế được làm từ gỗ POLYWOOD® chính hãng, rất bền và chịu được các yếu tố của thiên nhiên.",
+  "provider": "EcoFurniture",
+  "origin": "Việt Nam",
+  "stock_status": "Còn hàng",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735b0e3ffccc59f6e32341f"
+  },
+  "category1": "Bộ Bàn Ghế",
+  "category2": "Ngoài trời",
+  "name": "Bàn dã ngoại ngoài trời hình chữ nhật bằng nhựa tái chế Berlin Gardens",
+  "cost_of_capital": 6500000,
+  "price": 7500000,
+  "oldprice": 8500000,
+  "description": "Bàn dã ngoại hình chữ nhật Berlin Gardens Collection có độ bền cao - chắc chắn và sẽ cung cấp chỗ ngồi hoàn hảo trọn đời cho mọi buổi dã ngoại - họp mặt gia đình và tiệc sinh nhật của bạn! Chiếc bàn dã ngoại ngoài trời này minh họa cho chất lượng thủ công mà bạn sẽ trân trọng trong thế hệ lắp ráp nhanh chóng này. Chiếc bàn dã ngoại ngoài trời này được làm từ 100% gỗ poly tái chế giúp giảm thiểu lượng khí thải carbon và cung cấp cho bạn dịch vụ chăm sóc miễn phí trọn đời!",
+  "rating": 4.8,
+  "img": [
+    {
+      "img1": "https://example.com/images/ban_damoi.jpg",
+      "img2": "https://example.com/images/ban_damoi2.jpg",
+      "img3": "https://example.com/images/ban_damoi3.jpg",
+      "img4": "https://example.com/images/ban_damoi4.jpg",
+      "_id": {
+        "$oid": "6735b0e3ffccc59f6e323420"
+      }
+    }
+  ],
+  "quantity": 20,
+  "sold_quantity": 5,
+  "ask1": "Bàn có bền không?",
+  "answer1": "Bàn được làm từ 100% gỗ poly tái chế, rất bền và chịu được các yếu tố thời tiết.",
+  "ask2": "Bàn có dễ bảo trì không?",
+  "answer2": "Bàn gần như không cần bảo trì, và sẽ không thúc đẩy sự phát triển của vi khuẩn hoặc nấm mốc.",
+  "provider": "Berlin Gardens",
+  "origin": "Mỹ",
+  "stock_status": "Còn hàng",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735b1bcffccc59f6e32342a"
+  },
+  "category1": "Bàn ghế",
+  "category2": "Ngoài trời",
+  "name": "Bộ bàn ghế giả đá từ nhựa tái chế",
+  "cost_of_capital": 2000000,
+  "price": 2500000,
+  "oldprice": 3000000,
+  "description": "Bộ bàn ghế từ nhựa tái chế giả đá là sản phẩm độc đáo được thiết kế để có tính năng và độ bền cao. Với tính chất chống mài mòn, chịu được thời tiết khắc nghiệt và khả năng chống trầy xước, bộ bàn ghế này thực sự là một lựa chọn hoàn hảo cho những người đang tìm kiếm một bộ bàn ghế ngoài trời chất lượng cao. Bên cạnh đó, bộ bàn ghế từ nhựa tái sinh chế giả đá cũng có tính thẩm mỹ cao, với màu sắc sắc nét và họa tiết được phân phối tinh tế để tạo nên một phong cách trọng đại và sang trọng. Với khả năng chống nắng và chống tia UV, bộ bàn ghế này không chỉ đẹp mà còn rất bền với thời gian.",
+  "rating": 4.5,
+  "img": [
+    {
+      "img1": "https://example.com/images/ban_ghe_giada.jpg",
+      "img2": null,
+      "img3": null,
+      "img4": null,
+      "_id": {
+        "$oid": "6735b1bcffccc59f6e32342b"
+      }
+    }
+  ],
+  "quantity": 15,
+  "sold_quantity": 4,
+  "ask1": "Bộ bàn ghế này có bền không?",
+  "answer1": "Bộ bàn ghế được làm từ nhựa tái chế giả đá, có khả năng chống mài mòn, chịu được thời tiết khắc nghiệt và chống trầy xước.",
+  "ask2": "Bộ bàn ghế có chịu được nắng và tia UV không?",
+  "answer2": "Có, bộ bàn ghế có khả năng chống nắng và chống tia UV rất tốt.",
+  "provider": "EcoOutdoor",
+  "origin": "Việt Nam",
+  "stock_status": "Còn hàng",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735b295ffccc59f6e323435"
+  },
+  "category1": "Bộ Bàn Ghế",
+  "category2": "Ngoài trời",
+  "name": "Bộ Bàn Ghế Lục Giác Từ Nhựa Tái Chế",
+  "cost_of_capital": 4500000,
+  "price": 6500000,
+  "oldprice": 7000000,
+  "description": "Sản phẩm được làm từ nhựa tái chế kết hợp với các thanh Resinwood có kích thước khác nhau. Có thể đặt màu sắc theo yêu cầu cho đơn hàng số lượng lớn. Phần cứng có độ bền cao, được phủ với lớp sơn kháng nhiệt.",
+  "rating": 4,
+  "img": [
+    {
+      "img1": "",
+      "img2": "",
+      "img3": "",
+      "img4": "",
+      "_id": {
+        "$oid": "6735b295ffccc59f6e323436"
+      }
+    }
+  ],
+  "quantity": 100,
+  "sold_quantity": 25,
+  "ask1": "Có thể đặt màu sắc theo yêu cầu cho đơn hàng số lượng lớn?",
+  "answer1": "Có, bạn có thể yêu cầu màu sắc tùy chỉnh cho đơn hàng lớn.",
+  "ask2": "Bộ bàn ghế này có cần bảo trì không?",
+  "answer2": "Không, sản phẩm này không cần bảo trì.",
+  "provider": "Jayhawk",
+  "origin": "Nhựa Tái Chế",
+  "stock_status": "In Stock",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735b301ffccc59f6e323441"
+  },
+  "category1": "Bộ Bàn Ghế",
+  "category2": "Trong nhà",
+  "name": "Bộ Bàn Ghế Quầy Bar Từ Nhựa Tái Chế",
+  "cost_of_capital": 3000000,
+  "price": 4000000,
+  "oldprice": 4500000,
+  "description": "Bộ quầy bar 5 món Palm Coast có bốn chỗ ngồi và có ghế quầy bar Palm Coast thẳng đứng với thiết kế mặt sau Adirondack của Palm Coast. Với bàn quầy bar tròn cổ điển, bộ quầy bar này hoàn hảo để thư giãn với đồ uống trên hiên nhà.",
+  "rating": 4,
+  "img": [
+    {
+      "img1": "",
+      "img2": "",
+      "img3": "",
+      "img4": "",
+      "_id": {
+        "$oid": "6735b301ffccc59f6e323442"
+      }
+    }
+  ],
+  "quantity": 50,
+  "sold_quantity": 10,
+  "ask1": "Bộ quầy bar này có phù hợp với mọi điều kiện thời tiết không?",
+  "answer1": "Có, bộ quầy bar này được chế tạo để chịu được nhiều loại khí hậu khác nhau bao gồm nắng nóng và mùa đông.",
+  "ask2": "Có dễ dàng vệ sinh bộ bàn ghế này không?",
+  "answer2": "Dễ dàng vệ sinh bằng xà phòng, nước và bàn chải lông mềm.",
+  "provider": "Palm Coast",
+  "origin": "Nhựa Tái Chế",
+  "stock_status": "In Stock",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735b34affccc59f6e323444"
+  },
+  "category1": "Bộ Bàn Ghế",
+  "category2": "Trong nhà",
+  "name": "Bộ Bàn Ghế Từ Nhựa Tái Chế",
+  "cost_of_capital": 4000000,
+  "price": 5000000,
+  "oldprice": 5500000,
+  "description": "Bộ bàn ghế từ nhựa tái chế đá là sản phẩm độc đáo được thiết kế để có tính năng và độ bền cao. Với tính chất chống mài mòn, chịu được thời tiết khắc nghiệt và khả năng chống trầy xước, bộ bàn ghế này thực sự là một lựa chọn hoàn hảo cho những người đang tìm kiếm một bộ bàn ghế ngoài trời chất lượng cao. Bên cạnh đó, bộ bàn ghế từ nhựa tái sinh chế giả đá cũng có tính thẩm mỹ cao, với màu sắc sắc nét và họa tiết được phân phối tinh tế để tạo nên một phong cách trọng đại và sang trọng. Với khả năng chống nắng và chống tia UV, bộ bàn ghế này không chỉ đẹp mà còn rất bền với thời gian.",
+  "rating": 4,
+  "img": [
+    {
+      "img1": "",
+      "img2": "",
+      "img3": "",
+      "img4": "",
+      "_id": {
+        "$oid": "6735b34affccc59f6e323445"
+      }
+    }
+  ],
+  "quantity": 30,
+  "sold_quantity": 5,
+  "ask1": "Bộ bàn ghế này có chịu được thời tiết khắc nghiệt không?",
+  "answer1": "Có, bộ bàn ghế này có tính chất chống mài mòn, chịu được thời tiết khắc nghiệt và khả năng chống trầy xước.",
+  "ask2": "Bộ bàn ghế này có dễ dàng bảo trì không?",
+  "answer2": "Bộ bàn ghế này rất dễ bảo trì và bền bỉ theo thời gian, không bị ảnh hưởng bởi nắng hay tia UV.",
+  "provider": "Nhựa Tái Chế",
+  "origin": "Nhựa Tái Chế",
+  "stock_status": "In Stock",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735b39dffccc59f6e323452"
+  },
+  "category1": "Bàn",
+  "category2": "Trong nhà",
+  "name": "Bàn ăn từ nhựa poly classic tái chế",
+  "cost_of_capital": 350000,
+  "price": 450000,
+  "oldprice": 0,
+  "description": "Bàn vuông mang lại vẻ đẹp và sự tiện dụng cho bất kỳ không gian nào. Có thể thoải mái ngồi với bốn người và chức năng gấp gọn sau khi sử dụng.",
+  "rating": 0,
+  "img": [
+    {
+      "img1": "",
+      "img2": "",
+      "img3": "",
+      "img4": "",
+      "_id": {
+        "$oid": "6735b39dffccc59f6e323453"
+      }
+    }
+  ],
+  "quantity": 100,
+  "sold_quantity": 200,
+  "ask1": "Bàn này có chống chịu thời tiết không?",
+  "answer1": "Có, bàn được làm bằng nhựa tái chế thân thiện với môi trường, chống chịu mọi thời tiết và chống gỉ sét.",
+  "ask2": "Bàn có dễ dàng vệ sinh không?",
+  "answer2": "Bàn rất dễ dàng vệ sinh bằng xà phòng, nước và bàn chải lông mềm.",
+  "provider": "Nhựa Poly Tái Chế",
+  "origin": "Nhựa Tái Chế",
+  "stock_status": "In Stock",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735b3f9ffccc59f6e323455"
+  },
+  "category1": "Bàn",
+  "category2": "Ngoài trời",
+  "name": "Bàn ăn ngoài trời cho trẻ em bằng nhựa tái chế",
+  "cost_of_capital": 250000,
+  "price": 350000,
+  "oldprice": 0,
+  "description": "Bàn ăn hoàn hảo cho mọi thứ từ tiệc sinh nhật đến ăn nhẹ với bạn bè. Được làm bằng gỗ POLYWOOD nguyên khối, bàn có nhiều màu sắc hấp dẫn, không phai màu và không cần sơn, nhuộm hoặc chống thấm nước. Bàn cũng chịu được các yếu tố thời tiết và có khả năng chống lại vết bẩn và chất ăn mòn.",
+  "rating": 0,
+  "img": [
+    {
+      "img1": "",
+      "img2": "",
+      "img3": "",
+      "img4": "",
+      "_id": {
+        "$oid": "6735b3f9ffccc59f6e323456"
+      }
+    }
+  ],
+  "quantity": 50,
+  "sold_quantity": 0,
+  "ask1": "Bàn có chịu được thời tiết ngoài trời không?",
+  "answer1": "Có, bàn được làm từ gỗ POLYWOOD® với cấu trúc vững chắc, chống chịu tốt trước các yếu tố thiên nhiên.",
+  "ask2": "Bàn có dễ dàng vệ sinh không?",
+  "answer2": "Bàn dễ dàng vệ sinh bằng xà phòng và nước.",
+  "provider": "POLYWOOD",
+  "origin": "Nhựa Tái Chế",
+  "stock_status": "In Stock",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735b437ffccc59f6e323458"
+  },
+  "category1": "Bàn",
+  "category2": "Ngoài trời",
+  "name": "Bàn giả đá từ nhựa tái chế",
+  "cost_of_capital": 300000,
+  "price": 400000,
+  "oldprice": 0,
+  "description": "Bàn giả đá từ nhựa tái chế là sản phẩm độc đáo, thiết kế với độ bền cao, chống mài mòn, chịu được thời tiết khắc nghiệt và chống trầy xước. Bàn có tính thẩm mỹ cao với màu sắc sắc nét và họa tiết tinh tế, tạo phong cách sang trọng. Khả năng chống nắng và tia UV giúp sản phẩm bền với thời gian.",
+  "rating": 0,
+  "img": [
+    {
+      "img1": "",
+      "img2": "",
+      "img3": "",
+      "img4": "",
+      "_id": {
+        "$oid": "6735b437ffccc59f6e323459"
+      }
+    }
+  ],
+  "quantity": 100,
+  "sold_quantity": 0,
+  "ask1": "Bàn có chịu được thời tiết ngoài trời không?",
+  "answer1": "Có, bàn được thiết kế để chịu được thời tiết khắc nghiệt và tia UV.",
+  "ask2": "Bàn có dễ bị trầy xước không?",
+  "answer2": "Không, sản phẩm có khả năng chống trầy xước cao.",
+  "provider": "EcoPlastic",
+  "origin": "Nhựa Tái Chế",
+  "stock_status": "In Stock",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735b711ffccc59f6e323469"
+  },
+  "category1": "Bàn",
+  "category2": "Ngoài trời",
+  "name": "Bàn ăn tròn ngoài trời bằng nhựa tái chế",
+  "cost_of_capital": 400000,
+  "price": 550000,
+  "oldprice": 300000,
+  "description": "Bàn ăn tròn ngoài trời bằng nhựa tái chế với thiết kế thân thiện với môi trường, có sức chứa tối đa bốn người và cung cấp không gian để chân rộng rãi. Bàn được làm từ gỗ POLYWOOD, chống chịu mọi thời tiết và dễ vệ sinh, phù hợp với nhiều loại ghế ngoài trời.",
+  "rating": 4.5,
+  "img": [
+    {
+      "img1": "",
+      "img2": "",
+      "img3": "",
+      "img4": "",
+      "_id": {
+        "$oid": "6735b711ffccc59f6e32346a"
+      }
+    }
+  ],
+  "quantity": 100,
+  "sold_quantity": 0,
+  "ask1": "Bàn có chịu được thời tiết ngoài trời không?",
+  "answer1": "Có, bàn được làm từ gỗ POLYWOOD chịu được mọi điều kiện thời tiết.",
+  "ask2": "Bàn có dễ dàng vệ sinh không?",
+  "answer2": "Có, bàn dễ dàng vệ sinh bằng xà phòng và nước.",
+  "provider": "EcoPlastic",
+  "origin": "Nhựa Tái Chế",
+  "stock_status": "In Stock",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735b8fa04a9bec452e96087"
+  },
+  "category1": "Bàn",
+  "category2": "Trong nhà",
+  "name": "Bàn nhựa tái chế",
+  "cost_of_capital": 200000,
+  "price": 250000,
+  "oldprice": 300000,
+  "description": "Bàn nhựa tái chế là sản phẩm thân thiện với môi trường, được làm từ nhựa tái chế giúp giảm thiểu rác thải và tiết kiệm tài nguyên. Sản phẩm mang lại nhiều lợi ích như giảm thiểu ô nhiễm và thể hiện trách nhiệm với môi trường sống.",
+  "rating": 4.5,
+  "img": [
+    {
+      "img1": "",
+      "img2": "",
+      "img3": "",
+      "img4": "",
+      "_id": {
+        "$oid": "6735b8fa04a9bec452e96088"
+      }
+    }
+  ],
+  "quantity": 50,
+  "sold_quantity": 20,
+  "ask1": "Bàn có được làm từ nhựa tái chế hoàn toàn không?",
+  "answer1": "Đúng, bàn được làm từ nhựa tái chế để góp phần bảo vệ môi trường.",
+  "ask2": "Sản phẩm có thể dùng cho ngoài trời không?",
+  "answer2": "Có, bàn được làm từ nhựa tái chế bền bỉ, phù hợp cho môi trường ngoài trời.",
+  "provider": "EcoPlastic",
+  "origin": "Nhựa Tái Chế",
+  "stock_status": "In Stock",
+  "__v": 0
+}]

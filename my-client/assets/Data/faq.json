@@ -1,0 +1,160 @@
+{
+  "baoHanh": [
+    {
+      "question": "Phải làm gì khi sản phẩm bị hư hỏng quá thời hạn bảo hành?",
+      "answer": "GreenFurni nhận sửa chữa có tính phí đối với các sản phẩm bị hư hỏng quá thời hạn bảo hành. Chi phí sửa chữa sẽ tùy thuộc vào tình trạng lỗi của sản phẩm. Ngoài ra, bất cứ lúc nào trong quá trình sử dụng, nếu bạn có vấn đề với sản phẩm, xin liên hệ:",
+      "details": [
+        "Điện thoại: 0123-456-789",
+        "Email: GreenFurni@gmail.com",
+        "Địa chỉ: Số 669 QL 1, KP. 3, P. Linh Xuân, TP. Thủ Đức, TP. Hồ Chí Minh"
+      ],
+      "active": false
+    },
+    {
+      "question": "Làm sao để biết sản phẩm của tôi còn trong thời gian bảo hành?",
+      "answer": "Bạn có thể kiểm tra thời gian bảo hành của sản phẩm thông qua hóa đơn mua hàng hoặc số serial của sản phẩm. Bạn cũng có thể liên hệ với chúng tôi để tra cứu thông tin bảo hành qua điện thoại hoặc email.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Sản phẩm bị lỗi khi nhận hàng, tôi có thể đổi trả không?",
+      "answer": "Nếu sản phẩm gặp lỗi do nhà sản xuất trong vòng 7 ngày kể từ ngày nhận hàng, bạn có thể yêu cầu đổi hoặc trả sản phẩm. Quá thời gian này, chúng tôi sẽ hỗ trợ bảo hành hoặc sửa chữa miễn phí nếu sản phẩm còn trong thời gian bảo hành.",
+      "details": [
+        "Điện thoại: 0123-456-789",
+        "Email: GreenFurni@gmail.com",
+        "Địa chỉ: Số 669 QL 1, KP. 3, P. Linh Xuân, TP. Thủ Đức, TP. Hồ Chí Minh"
+      ],
+      "active": false
+    },
+    {
+      "question": "Bảo hành bao gồm những dịch vụ gì?",
+      "answer": "Bảo hành bao gồm việc sửa chữa miễn phí đối với các lỗi kỹ thuật hoặc lỗi do nhà sản xuất. Trong trường hợp sản phẩm không thể sửa chữa, chúng tôi sẽ thay thế sản phẩm mới hoặc hoàn tiền tùy vào tình trạng sản phẩm.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Tôi cần cung cấp những gì để yêu cầu bảo hành?",
+      "answer": "Để yêu cầu bảo hành, bạn cần cung cấp hóa đơn mua hàng, số serial của sản phẩm và mô tả chi tiết về vấn đề của sản phẩm. Trong một số trường hợp, chúng tôi có thể yêu cầu hình ảnh hoặc video để xác minh lỗi.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Sản phẩm bảo hành có được miễn phí vận chuyển không?",
+      "answer": "Chúng tôi sẽ chịu phí vận chuyển cho các sản phẩm bị lỗi trong thời gian bảo hành khi gửi lại cho chúng tôi để sửa chữa hoặc thay thế. Tuy nhiên, nếu sản phẩm bị hư hỏng ngoài thời gian bảo hành, khách hàng sẽ phải chịu phí vận chuyển.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Bảo hành có áp dụng cho tất cả các sản phẩm không?",
+      "answer": "Bảo hành áp dụng cho tất cả các sản phẩm mua tại GreenFurni, ngoại trừ các sản phẩm đã qua sửa chữa hoặc bị hư hỏng do sử dụng sai cách. Chúng tôi cam kết bảo hành tất cả sản phẩm theo chính sách bảo hành của chúng tôi.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    }
+  ],
+  "datHang": [
+    {
+      "question": "Làm thế nào để đặt hàng sản phẩm?",
+      "answer": "Bạn có thể đặt hàng trực tiếp trên website của chúng tôi, chọn sản phẩm mong muốn và làm theo các bước hướng dẫn để hoàn tất đơn hàng. Nếu bạn gặp khó khăn, chúng tôi cũng hỗ trợ đặt hàng qua điện thoại hoặc email.",
+      "details": [
+        "Website: www.GreenFurni.com",
+        "Điện thoại: 0123-456-789",
+        "Email: GreenFurni@gmail.com"
+      ],
+      "active": false
+    },
+    {
+      "question": "Có thể hủy đơn hàng sau khi đã đặt không?",
+      "answer": "Bạn có thể hủy đơn hàng trong vòng 24 giờ sau khi đặt. Sau thời gian này, nếu đơn hàng đã được xử lý hoặc vận chuyển, chúng tôi sẽ không thể hủy đơn hàng.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Có thể thay đổi thông tin đơn hàng sau khi đã đặt không?",
+      "answer": "Bạn có thể thay đổi thông tin đơn hàng (địa chỉ giao hàng, số điện thoại, sản phẩm) trong vòng 24 giờ sau khi đặt. Sau thời gian này, nếu đơn hàng đã được xử lý hoặc vận chuyển, chúng tôi không thể thay đổi thông tin.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Làm sao để biết đơn hàng của tôi đã được xác nhận?",
+      "answer": "Sau khi bạn hoàn tất đặt hàng, chúng tôi sẽ gửi email xác nhận đơn hàng cùng với mã đơn hàng và thông tin chi tiết. Nếu bạn không nhận được email, vui lòng kiểm tra hộp thư rác hoặc liên hệ với chúng tôi để kiểm tra.",
+      "details": ["Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Có thể thanh toán bằng phương thức nào khi đặt hàng?",
+      "answer": "Chúng tôi hỗ trợ các phương thức thanh toán sau: thẻ tín dụng, thẻ ghi nợ, chuyển khoản ngân hàng, và thanh toán khi nhận hàng (COD).",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Thời gian giao hàng mất bao lâu?",
+      "answer": "Thời gian giao hàng phụ thuộc vào địa điểm và phương thức vận chuyển. Thông thường, đơn hàng sẽ được giao trong vòng 3-7 ngày làm việc sau khi xác nhận đơn hàng.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Có thể yêu cầu giao hàng vào thời gian cụ thể không?",
+      "answer": "Chúng tôi cung cấp dịch vụ giao hàng vào thời gian cụ thể trong giờ hành chính. Vui lòng liên hệ trước để xác nhận và đặt lịch giao hàng theo yêu cầu.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Có miễn phí vận chuyển không?",
+      "answer": "Chúng tôi cung cấp miễn phí vận chuyển cho các đơn hàng có giá trị từ 1 triệu đồng trở lên trong khu vực thành phố Hồ Chí Minh. Đối với các khu vực khác, phí vận chuyển sẽ được tính theo địa điểm và trọng lượng sản phẩm.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    }
+  ],
+  "giaoHang": [
+    {
+      "question": "Thời gian giao hàng mất bao lâu?",
+      "answer": "Thời gian giao hàng phụ thuộc vào địa chỉ và phương thức vận chuyển. Thông thường, đơn hàng sẽ được giao trong vòng 3-7 ngày làm việc sau khi xác nhận đơn hàng.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Có thể yêu cầu giao hàng vào thời gian cụ thể không?",
+      "answer": "Chúng tôi cung cấp dịch vụ giao hàng vào thời gian cụ thể trong giờ hành chính. Vui lòng liên hệ trước để xác nhận và đặt lịch giao hàng theo yêu cầu.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Tôi có thể theo dõi đơn hàng của mình như thế nào?",
+      "answer": "Sau khi đơn hàng được vận chuyển, chúng tôi sẽ cung cấp mã số vận đơn để bạn có thể theo dõi quá trình giao hàng qua website của công ty vận chuyển.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Nếu tôi không có mặt khi giao hàng, làm sao để nhận hàng?",
+      "answer": "Nếu bạn không có mặt khi giao hàng, người giao sẽ liên hệ lại với bạn để hẹn một thời gian giao lại. Bạn cũng có thể ủy quyền cho người khác nhận hàng thay bạn.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    }
+  ],
+  "sanPham": [
+    {
+      "question": "Sản phẩm có chất liệu gì?",
+      "answer": "Chúng tôi sử dụng nhiều loại chất liệu khác nhau, bao gồm gỗ tự nhiên, gỗ công nghiệp, và kim loại tùy thuộc vào từng dòng sản phẩm. Mỗi chất liệu đều được chọn lọc kỹ lưỡng để đảm bảo độ bền và an toàn cho người sử dụng.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Sản phẩm có thể tùy chỉnh kích thước không?",
+      "answer": "Chúng tôi cung cấp dịch vụ tùy chỉnh kích thước cho một số sản phẩm. Vui lòng liên hệ với đội ngũ tư vấn để biết thêm chi tiết và hỗ trợ tùy chỉnh sản phẩm theo nhu cầu của bạn.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Làm thế nào để bảo quản sản phẩm tốt nhất?",
+      "answer": "Để sản phẩm luôn bền đẹp, hãy đặt ở nơi khô ráo, tránh tiếp xúc với nước và ánh nắng trực tiếp. Vệ sinh định kỳ bằng khăn mềm và các dung dịch chuyên dụng để sản phẩm luôn giữ được vẻ sáng bóng.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    },
+    {
+      "question": "Sản phẩm có bảo hành không?",
+      "answer": "Tất cả các sản phẩm đều có chế độ bảo hành. Thời gian bảo hành tùy thuộc vào từng loại sản phẩm. Vui lòng kiểm tra chính sách bảo hành hoặc liên hệ với chúng tôi để biết thêm chi tiết.",
+      "details": ["Điện thoại: 0123-456-789", "Email: GreenFurni@gmail.com"],
+      "active": false
+    }
+  ]
+}
