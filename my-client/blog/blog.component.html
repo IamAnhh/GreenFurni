@@ -1,0 +1,30 @@
+
+  <body>
+    <img loading="lazy" src="../../assets/Images/blog/Banner.jpg" alt="GreenFurni banner" class="banner-image"/>
+    <div class="contentMain " >
+      <h2 class="titleMain">TẤT CẢ BÀI VIẾT</h2>
+      <div *ngFor="let blogData of blogs" class="article"  [routerLink]="['/blog', blogData._id]">
+
+        <img
+        *ngIf="blogData.thumbnail && blogData.thumbnail[0]"
+        [src]="blogData.thumbnail[0]"
+        alt="Blog thumbnail"
+        class="img"
+      />
+
+        <div class="content1">
+          <h3 class="title">{{ blogData.title }}</h3>
+          <p class="contentmain">{{ blogData.subcontent }}</p>
+          <p class="author">
+            Bởi: {{ blogData.author }}
+            <br />
+            Ngày: {{ currentDate }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+
+
+

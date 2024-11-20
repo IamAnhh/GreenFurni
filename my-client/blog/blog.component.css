@@ -1,0 +1,117 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.contentMain {
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  cursor:pointer;
+}
+.titleMain {
+  color: #4caf50;
+  font-family: Literata;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+.article {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #4caf50;
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+
+.article:hover {
+  background-color: #e8f5e9;
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.article:active {
+  background-color: #c8e6c9;
+  transform: scale(0.98);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.article img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
+.article h3 {
+  margin: 10px;
+  color: #4c704d;
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.article p {
+  margin: 0px 10px;
+  padding: 10px;
+  color: #000;
+  text-align: left;
+}
+
+.author {
+  color: #030303 !important;
+  font-weight: bold !important;
+  text-align: right !important;
+  font-family: "Literata", serif !important;
+}
+
+
+
+@media (max-width: 991px) {
+  body {
+    margin: 10px;
+  }
+  .contentMain {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .article img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+
+
+  .banner-image {
+    display:none;
+}
+  .article {
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; /* Căn giữa ảnh */
+    text-align: justify; /* Chữ justify */
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .article h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+}
