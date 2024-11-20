@@ -1,0 +1,150 @@
+/* .blog-detail {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+} */
+.main-content {
+  padding: 20px 40px;
+  margin-top: 55px;
+}
+
+.blog-title {
+  color: #4c704d;
+  font-family: Literata;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: justify;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.article-content {
+  flex: 0 0 69%;
+  text-align: center;
+}
+
+.article-image {
+  width: 601px;
+  aspect-ratio: 1.38;
+  object-fit: contain;
+
+  margin-bottom: 20px;
+  text-align: justify;
+
+}
+
+
+.contentmain, .author{
+  color: #000;
+  font-family:'Roboto', sans-serif;
+  margin-top: 14px;
+  font-size: 20px;
+ text-align: justify;
+ font-weight: 550;
+ color:  #4c704d;
+}
+
+
+.article-text {
+  color: #000;
+  font-family:'Roboto', sans-serif;
+  margin-top: 14px;
+  font-size: 20px;
+ text-align: justify;
+}
+
+.sidebar {
+  flex: 0 0 31%;
+}
+
+.sidebar-title {
+  color: #4caf50;
+  font: 700 28px Literata, sans-serif;
+}
+
+.recent-post {
+  border: 1px solid #4caf50;
+  border-radius: 10px;
+  padding: 11px 19px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+/* Hiệu ứng hover */
+.recent-post:hover {
+  background-color: #e8f5e9;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hiệu ứng khi click */
+.recent-post:active {
+  background-color: #c8e6c9;
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.post-thumbnail {
+  width: 108px;
+  aspect-ratio: 1;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.post-title {
+  color: #4caf50;
+  font: 700 20px Literata, sans-serif;
+  margin-top: 13px;
+}
+
+.additional-image {
+  width: 649px;
+  aspect-ratio: 1.62;
+  object-fit: contain;
+  margin: 10px 0 0 56px;
+}
+@media (max-width: 991px) {
+  .main-content {
+    padding: 15px 20px;
+    margin-top: 40px;
+  }
+
+  .blog-title {
+    margin:15px;
+    font-size: 25px;
+
+  }
+  .contentmain, .author{
+
+    font-size: 19px;
+
+  }
+
+
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .article-content {
+    flex: 1 0 100%;
+  }
+
+  .article-image,
+  .additional-image {
+    width: 100%;
+    margin-left: 0;
+  }
+  .article-text {
+    font-size: 17px;
+
+  }
+}
